@@ -1,0 +1,151 @@
+<html>
+	     
+	<head>
+		             <title>Insidethesong</title>  
+                               
+		<meta charset="utf-8"/>   
+	<link rel="stylesheet" type="text/css" href="CSS/styleschede.css"/>
+		<link rel="stylesheet" type="text/css" href="CSS/mediaquearyschedestyle.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+
+		<script src="javascript/barra-ricerca.js"></script>           
+      
+		  <!-- Google tag (gtag.js) -->
+		  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VM6XE5F9Z2"></script>
+		  <script>
+				window.dataLayer = window.dataLayer || [];
+			   function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-VM6XE5F9Z2');
+		  </script>                
+ 
+		<script src="pop-up.js"></script>
+		    
+	</head>
+	<body>
+
+		<div id="barradiricerca">
+			                    
+			<p>
+				                        
+				<section>
+					                                  
+					<nav>
+						                                        
+						<ul id="pags">
+						<li class="pag">
+							<a href="index.html" style="color: rgb(255, 255, 255); text-decoration: none;">
+								<span style="color:rgb(153, 3, 3);">H</span><span class="hover-red">OME</span>
+							</a>
+						</li>
+						<li class="pag">
+							<a href="la%20nostra%20storia.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white' ">LA NOSTRA STORIA</a>
+						</li>
+						<li class="pag">
+							<a href="documenti.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">DOCUMENTI</a>
+						</li>							                                        
+						<li class="pag">
+							<a href="chi%20siamo.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">CHI SIAMO</a>
+						</li>	
+							                                         
+						</ul>
+						                                  
+					</nav>
+					                        
+				</section>
+				                      
+			</p>
+			                
+		</div>
+		                         
+		<input type="text" id="barra-ricerca"
+				onclick="document.getElementById('elenco').style.display='block'" 
+				onkeyup="ricerca()"
+				onblur="nascondiElenco()" 
+				placeholder="     inserisci canzone"/>
+             
+		            
+		<ul id="elenco"type="A" style="display:none;">
+			         
+			
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda1.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Give peace a chance - John Lennon</a></li>             
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda2.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Maracaibo - Lu Colombo</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda3.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Bongo Bong - Manu Chao</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda4.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Io vengo dalla luna - Caparezza</a></li>          
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda5.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Buffalo soldier -Bob Marley</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda6.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Another Brick in the Wall - Pink Floyd</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda7.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Via del campo - Fabrizio De Andrè</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda8.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">L'isola che non c'è - Edoardo Bennato</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda9.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Ghetto Gospel - 2Pac</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda10.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Bonobo power - Capareza</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda11.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Aida - Rino Gaetano</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda12.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Stand by me - Ben E. King</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda13.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Zombie - Cranberries</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda14.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Jolene - Dolly Parton</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda15.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">I will always love you - Dolly Parton</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda16.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Me so 'mbriacato -Mannarino</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda17.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">I will survive - Gloria Gaynor</a></li>
+			<li class="titoli" onclick="this.style.display='block'"><a href="scheda18.html" style="color:rgb(242, 241, 241); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Hit the road Jack - Ray Charles</a></li>
+
+			
+		</ul>
+		            
+			<script>
+			function ricerca() {
+			  var input, filter, ul, li, i, txtValue;
+			  input = document.getElementById("barra-ricerca");
+			  filter = input.value.toUpperCase();
+			  ul = document.getElementById("elenco");
+			  li = ul.getElementsByTagName("li");
+			  for (i = 0; i < li.length; i++) {
+				txtValue = li[i].textContent || li[i].innerText;
+				if (txtValue.toUpperCase().indexOf(filter) > -1) {
+				  li[i].style.display = "";
+				} else {
+				  li[i].style.display = "none";
+				  
+				}
+			  }
+			}
+			</script>
+<script>
+		window.onload = function() {
+			var list = document.getElementyTaById("elenco");
+			var items = list.getElementsBgName("li");
+			var itemsArr = [];
+			for (var i in items) {
+				if (items[i].nodeType == 1) { // get rid of the whitespace text nodes
+					itemsArr.push(items[i]);
+				}
+			}
+			itemsArr.sort(function(a, b) {
+				return a.textContent.localeCompare(b.textContent);
+			});
+			for (i = 0; i < itemsArr.length; ++i) {
+				list.appendChild(itemsArr[i]);
+			}
+		}
+	</script>
+
+	
+		
+                
+<h1 id="titoloalbum">Io vengo dalla luna</h1>
+<p id="descrizionetesto">"Io vengo dalla luna" è una canzone dell'artista italiano Caparezza, inclusa nel suo album del 2003 intitolato "Verità supposte". <br><br>La canzone presenta un mix di rap, pop e influenze elettroniche, creando un sound energico e coinvolgente. A livello tematico, "Io vengo dalla luna" affronta il concetto di diversità e di sentirsi estranei o fuori posto nella società. Il testo parla di un individuo che si sente alieno, come se non appartenesse al mondo in cui vive, e trova conforto nell'idea di provenire da un luogo diverso, simboleggiato dalla luna. <br>La canzone trasmette un messaggio di accettazione di sé e di valorizzazione delle peculiarità personali.<br><br>
+
+    Curiosità: "Io vengo dalla luna" ha riscosso un grande successo in Italia, ottenendo un notevole apprezzamento sia da parte della critica che del pubblico. Il brano è diventato un inno per molti giovani che si identificano con il senso di estraneità e che trovano conforto nell'idea di essere unici e diversi. La canzone è diventata uno dei maggiori successi di Caparezza e ha contribuito a consolidare la sua reputazione come artista innovativo e originale.<br><br>
+    
+    In conclusione, Caparezza è un talentuoso cantautore italiano con un approccio unico alla musica e alle tematiche trattate. "Io vengo dalla luna" è un brano che affronta il senso di estraneità e l'accettazione di sé, caratterizzato da un sound coinvolgente e testi riflessivi. La canzone ha contribuito a consolidare la fama di Caparezza come artista di spicco nel panorama musicale italiano.</p>
+
+<a href="https://www.youtube.com/watch?v=XNy-p3NhlkE&list=PLExVpK9X7M9U4XN2I2yQAvnVnSicV2zzc">
+<img id="album"  src="foto/verità.jpg" alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rockit.it%2Fcaparezza%2Falbum%2Fverita-supposte%2F3004&psig=AOvVaw1WMEXa56puUILhtjS5-bTI&ust=1684163905249000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCLjVws-N9f4CFQAAAAAdAAAAABAV">
+</a>
+
+<H2 id="nomeautore">Caparezza</H2>
+    <p id="descrizioneautore">Caparezza, pseudonimo di Michele Salvemini, è un cantautore italiano nato il 9 ottobre 1973 a Molfetta, in provincia di Bari. Caparezza ha guadagnato notorietà per la sua musica eterogenea e per la sua abilità nel mescolare diversi generi musicali, come rap, pop, rock e musica elettronica. Sin da giovane, Caparezza ha dimostrato un interesse per l'arte e la musica, sviluppando una forte passione per il rap e la scrittura dei testi. Ha iniziato la sua carriera nel mondo della musica negli anni '90 e ha continuato a crescere in popolarità grazie alla sua creatività, alle sue liriche taglienti e al suo stile unico. Oltre alla sua carriera musicale, Caparezza è noto per il suo approccio satirico e ironico, spesso esprimendo critiche sociali e politiche attraverso le sue canzoni.</p>
+    <img id="autore"  src="foto/Caparezza.jpg" alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgds.it%2Fvideo%2Fcultura%2F2021%2F05%2F28%2Fspeciale-weekend-caparezza-su-rgs-il-cantautore-cambia-pelle-con-il-suo-nuovo-album-exuvia-e8a87cfa-aaae-441d-83d8-358184724a7b%2F&psig=AOvVaw3dMtuOpcPzT3WAu1jK-RKJ&ust=1684163720385000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCPj07P-M9f4CFQAAAAAdAAAAABAH">
+
+
+</body>
+</html>
+
