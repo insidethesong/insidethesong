@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <title>Area di Accesso</title>
+  <meta charset="utf-8"/>   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="CSS/styleAR.css">
+  <link rel="stylesheet" type="text/css" href="CSS/mediaquerystylechat.css">
+
+  <script src="javascript/accedi.js"></script>
+  <script src="javascript/barra-ricerca.js"></script>     
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VM6XE5F9Z2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VM6XE5F9Z2');
+  </script>      
+</head>
+
+
+<body onload="showPopup()">
+  <h1>Area di Accesso</h1>
+  
+  <div class="popup" id="popup">
+    <h2>Benvenuto!</h2>
+    <p>Effettua l'accesso o registrati per accedere alle funzionalità del sito.</p>
+    <button class="tasto" onclick="goToLogin()">Accedi</button>
+    <button class="tasto" onclick="goToRegistration()">Iscriviti</button>
+  </div>
+  
+  <button class="tasto" id="home" onclick="goToHomepage()">Torna alla Homepage</button>
+</body>
+</html>

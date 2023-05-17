@@ -1,0 +1,144 @@
+
+  /* Media query per telefoni */
+  @media (max-width: 720px) {
+  body {
+    width: 98vw;
+    height: 2000px;
+    margin: 0;
+    overflow-y: auto ;
+  }
+ #titolo{
+font-size: 20px;
+top:60px;
+left:8px;
+} 
+
+  #logo {
+    top: 140px;
+    left: 28%;
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+  #barradiricerca {
+    width: 100%;
+    height: 50px;
+    top: 50px;
+  }
+
+  #pags {
+    position: absolute;
+    font-size: 15px;
+    height: 43px;
+    width: 88%;
+    top: -67px;
+    padding: 22px;
+    text-align: center;
+    border:1px solid rgb(246, 246, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     }
+
+  input[type="text"] {
+    left: 14%;
+    top: 4.2%;
+    width: 70%;
+    height: -13px;
+    font-size:11px;
+    padding:8px;
+    border:1px solid rgb(246, 246, 246);
+
+  }
+
+  #elenco {
+    left: 9%;
+    right: 8%;
+    top: 5%;
+    width: 70%;
+    padding: 20px;
+    font-size: 11px;
+    border:1px solid rgb(246, 246, 246);
+  }
+  #titoli{
+      font-size: 28px;
+  }
+#iconamenu{
+  scale: 0.8;
+  top: -5px;
+  left: 161px;
+}
+.dropdown-content{
+  scale: 0.8;
+  top: -22px;
+  left: 12px;
+  
+}
+
+.dropdown-container {
+  position: relative;
+  left: 47%;
+  top: 7%;
+
+  display: inline-block;}
+
+
+
+
+
+
+
+#autore{
+    top:45%;
+    left:3%;
+}
+
+#nomeautore{
+text-align:left;
+left:3%;
+top:48%;
+font-size:12px;
+}
+#descrizioneautore{
+text-align: left;
+font-size:12px;
+top:49%;
+left:3%;
+max-width:80%;
+margin-right:2%;
+}
+
+#album {
+    position: absolute;
+    top: 6%;
+    left: 3%;
+    max-width: 20%;
+    max-height: 20%;
+    border: solid 2px;
+    border-color: white;
+    margin-left: 3% auto;
+    margin-right: 3% auto;
+  }
+
+#titoloalbum{
+  position: absolute;
+  color: white;
+  left: 3%;
+  top: 10%;
+  font-size: 12px;
+  text-align: left;
+}
+
+#descrizionetesto{  
+  top:11%;
+  max-width:95%;
+  left:3%;
+  font-size:12px;
+}
+
+
+#accesso{scale:calc(0.8);}
+
+
+
+}

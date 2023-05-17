@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+		  <title>Comment Section</title>
+		  <meta charset="utf-8"/>   
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  <link rel="stylesheet" type="text/css" href="CSS/stylechat.css">
+		  <link rel="stylesheet" type="text/css" href="CSS/mediaquerystylechat.css">
+
+		  <script src="javascript/bot.js"></script>
+		  <script src="javascript/barra-ricerca.js"></script>          
+		  <!-- Google tag (gtag.js) -->
+		  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VM6XE5F9Z2"></script>
+		  <script>
+				window.dataLayer = window.dataLayer || [];
+			   function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-VM6XE5F9Z2');
+		  </script>      
+		</head>
+		<body>
+		  <h1>Comment Section</h1>
+			<form id="commentForm" onsubmit="submitComment(event)">
+					<label for="name">Name:</label>
+					<input type="text" id="name" required>
+				<br>
+					<label for="comment">Comment:</label> 
+					<textarea id="comment" required></textarea>
+				<br>
+					<input type="submit" value="Send Comment">
+		  	</form>
+		  <div id="commentList"></div>
+			<p id="scriptchat">Your comment will be sent via Telegram to our team of moderators and writers. Let us know what you think!</p>
+			<button class="tasto" onclick="redirectToAreaRiservata()">X</button>
+
+			<script>
+			function redirectToAreaRiservata() {
+			  window.location.href = "indexEN.html";
+			}
+			</script>
+
+
+	
+		</body>
+	</html>

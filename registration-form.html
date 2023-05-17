@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registrazione</title>  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="CSS/styleRF.css">
+  <link rel="stylesheet" type="text/css" href="CSS/mediaquerystylechat.css">
+</head>
+</head>
+<body>
+  <h1>Registrazione</h1>
+  <form id="reg">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="surname">Cognome:</label>
+    <input type="text" id="surname" name="surname" required><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    
+    <input type="submit" value="Registrati">
+  </form>
+  <button class="tasto" onclick="redirectToAreaRiservata()">X</button>
+
+  <script>
+  function redirectToAreaRiservata() {
+    window.location.href = "area riservata.html";
+  }
+  </script>
+</body> 
+</html>

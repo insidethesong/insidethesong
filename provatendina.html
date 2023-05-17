@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Insidethesong</title>  
+	<link rel="stylesheet" type="text/css" href="CSS/style.css"/> 
+	<link rel="stylesheet" type="text/css" href="CSS/media queary style.css"/> 
+	<meta charset="utf-8" />
+	<style>
+		.dropdown {
+		  position: relative;
+		  display: inline-block;
+		}
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  z-index: 1;
+		}
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+	</style>
+</head>
+<body>
+	<img id="sfondo1" src="foto\linee1.jpg" >	
+	<div id="barradiricerca">
+		<section>
+			<nav>
+				<ul id="pags">
+					<li class="pag">
+						<a href="index.html" style="color: white; text-decoration: none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">HOME</a>
+					</li>                                                                   
+					<li class="pag">
+						<a href="la%20nostra%20storia.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white' ">LA NOSTRA STORIA</a>
+					</li>
+					<li class="pag">
+						<a href="documenti.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">DOCUMENTI</a>
+					</li>							                                        
+					<li class="pag dropdown">
+						<a href="#" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">CATEGORIE</a>
+						<div class="dropdown-content">
+						    <a href="#">Categoria 1</a>
+						    <a href="#">Categoria 2</a>
+						    <a href="#">Categoria 3</a>
+						</div>
+					</li> 
+					<li class="pag">
+						<a href="chi%20siamo.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">CHI SIAMO</a>
+					</li>   
+				</ul>     
+			</nav>     
+		</section>                   
+	</div>           
+	<input type="text" id="barra-ricerca"
+		onclick="document.getElementById('elenco').style.display='block'" 
+		onkeyup="ricerca()"
+		onblur="nascondiElenco()" 
+		placeholder="     inserisci canzone"/>          
+	<ul id="elenco" type="A" style="display:none;">
+		<li class="titoli" onclick="this.style.display='block'">
+			<a href="scheda1.html" style="color:black; text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='black'">give peace a chance - john
+
+
+
