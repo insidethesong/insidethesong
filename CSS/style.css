@@ -1,0 +1,269 @@
+
+
+/*SOLO PER LA PARTE FISSA*/
+
+  body{ 
+    position:relative;
+    margin: 0 auto;
+    overflow-y: scroll;
+    width: 1080px;
+    max-width: 1080px;
+    height:1920px;
+    background:  rgb(0, 0, 0);
+    border: solid 2px ;
+    border-color: white;
+    font-family: "Century Gothic", sans-serif;
+
+}
+
+.titoli{
+   list-style-type: disc;
+  margin-bottom: 10px;
+}
+
+  #titolo {
+    color: white;
+  }
+
+  #titolo:hover {
+    color: rgb(153, 3, 3);
+  }
+
+  #titolo::first-letter {
+    color:rgb(153, 3, 3);
+  }
+
+
+#logo{
+  position: absolute;
+  top: 325px;
+  left:36.5%;
+    max-width: 35%;
+  max-height: 35%;
+}
+
+#barradiricerca {
+  position: absolute;
+  margin:  auto;
+  width: 1078px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+
+
+
+}
+#pags{
+font-size: 30px;
+position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px white solid;
+  padding:10px;
+  height:70px;
+  width: 1057px;
+  top:-33px;
+  
+}
+.hover-red:hover {
+  color: rgb(153, 3, 3);
+}
+
+/*barra di ricerca canzone*/
+
+
+/*barra di ricerca canzone*/
+input[type="text"] {
+  position: absolute;
+  text-align: center;
+  left:240px;
+  top:750px;
+  margin: 0 auto;
+  border-radius: 0px 0px 25px 0px;
+  border: solid 2px ;
+  border-color: white;
+  color:white;
+  padding: 20px;
+  width: 600px;
+  background-color: rgb(0, 0, 0);
+}
+/* Per browser WebKit come Chrome e Safari */
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #ffffff; /* Colore desiderato per il placeholder */
+}
+
+/* Per altri browser */
+input::placeholder,
+textarea::placeholder {
+  color: #ffffff; /* Colore desiderato per il placeholder */
+}
+
+/*elenco*/
+#elenco {
+  left:260px;
+  top:850px;
+  position:absolute;
+  background-color:rgb(0, 0, 0);
+  width: 500px;
+  border: solid 2px white;
+  border-radius: 0px 0px 25px 0px;
+  padding: 50px;
+
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  /*COLORE LINK*/
+  color: rgb(153, 3, 3);
+}
+
+/*SOLO TITOLI IN GRANDE*/
+
+#titolo{
+  position:absolute;
+  top:110px;
+  left:35px;
+  color: white;
+}
+
+/*area riservata*/
+#account{
+  position:relative;
+  top:-8px;
+  width: 25%;
+  height: 25%;
+
+}
+#chat{
+  position:relative;
+  width: 25%;
+  height: 25%;
+  color:white;
+  top: 4px;
+}
+.btn-group {
+  display: inline-flex;
+  position: relative;
+  top :14px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn:active {
+  background-color: #000000;
+}
+
+.btn-outline-primary {
+  color: #fcfcfc;
+  background-color: transparent;
+  border-color: #ffffff;
+}
+
+.custom-btn {
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+#accedi{
+
+  position: absolute;
+  top: 19px;
+ left: 65px;
+}
+#messaggio{
+  position: absolute;
+  top:78px;
+  left:65px
+}
+
+#iconamenu{
+
+    position: absolute;
+    z-index: 9999;
+
+  width: 36px;
+  height: 36px;
+  top:31px;
+  left:148px;
+}
+#rosso{background-color:  rgb(153, 3, 3);}
+
+.dropdown-container {
+  position: relative;
+  left: 82%;
+  top: 0%;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top:70px;
+  left:-17px;
+  background-color: #0b0b0b;
+  min-width: 173px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 22px 14px;
+  z-index: 1;
+ 
+  border: 1px solid white;
+  border-radius: 0px 0px 25px 0px;
+}
+.dropdown-content a {
+  display: block;
+}
+.dropdown-container:hover .dropdown-content {
+  display: block;
+}
+
+footer{
+position:relative;
+color:white;
+text-align:center ;
+margin-left:0 auto;
+margin-right:0 auto;
+top: 1820px;
+}
+
+
+
+
+
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+
+
