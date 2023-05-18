@@ -7,6 +7,7 @@
 
     overflow-y: auto ;
     border-bottom: none;
+    overflow-x: hidden;
   }
  #titolo{
     font-size: 20px;
