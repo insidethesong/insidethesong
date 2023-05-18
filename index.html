@@ -22,24 +22,7 @@
 		  gtag('config', 'G-VM6XE5F9Z2');
 	</script>   
 	
-	<script>
-		window.onload = function() {
-			var list = document.getElementById("elenco");
-			var items = list.getElementsByTagName("li");
-			var itemsArr = [];
-			for (var i in items) {
-				if (items[i].nodeType == 1) { // get rid of the whitespace text nodes
-					itemsArr.push(items[i]);
-				}
-			}
-			itemsArr.sort(function(a, b) {
-				return a.textContent.localeCompare(b.textContent);
-			});
-			for (i = 0; i < itemsArr.length; ++i) {
-				list.appendChild(itemsArr[i]);
-			}
-		}
-	</script>
+
 </head>
 <body>
 	<img id="logo" src="foto/logodef1.png">
