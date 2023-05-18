@@ -1,19 +1,8 @@
 
   /* Media query per telefoni */
+  /* Media query per telefoni */
   @media (max-width: 720px) {
- body {
-      width: auto;
-      height: 98vh;
-      margin: 0;
-      overflow: hidden;
-      touch-action: pan-x pan-y;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-zoom: zoom;
-    max-zoom: 1.0;
-    }
+
 #scriptstoria{
  font-size: 25px;
 
