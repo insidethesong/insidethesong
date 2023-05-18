@@ -5,6 +5,7 @@
       width: auto;
       height: 98vh;
       margin: 0;
+      overflow-x: hidden;
     }
    #titolo{
       font-size: 20px;
