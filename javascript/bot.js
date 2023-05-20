@@ -29,6 +29,10 @@ function submitComment(event) {
   // Resettare i campi del modulo
   document.getElementById("name").value = "";
   document.getElementById("comment").value = "";
+  
+  setTimeout(function() {
+    confirmationMessage.style.display = "none";
+  }, 3000);
 
   return false;
 }
