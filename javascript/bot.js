@@ -30,9 +30,16 @@ function submitComment(event) {
   document.getElementById("name").value = "";
   document.getElementById("comment").value = "";
   
-  setTimeout(function() {
-    confirmationMessage.style.display = "none";
-  }, 3000);
+// Ottieni il riferimento all'elemento "name"
+var nameInput = document.getElementById("name");
+
+// Aggiungi l'event listener per l'evento di clic sul campo "name"
+nameInput.addEventListener("click", function() {
+  // Nascondi il messaggio di conferma
+  var confirmationMessage = document.getElementById("confirmationMessage");
+  confirmationMessage.style.display = "none";
+});
+
 
   return false;
 }
