@@ -28,18 +28,15 @@ body {
   }
 
   #pags {
-    position: absolute;
+    position: relative;
     font-size: 15px;
-    height: 43px;
-    width: 100%;
+    height: 16px;
+    width: auto;
     top: -67px;
     padding: 22px;
+    margin: 0 auto;
     text-align: center;
-    border:1px solid rgb(246, 246, 246);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     }
+}
 
   input[type="text"] {
     left: 14%;

@@ -208,7 +208,7 @@ a:hover {
 #ascoltaora{
   display: block;
   position:absolute;
-  color:rgba(255, 255, 255, 0.133);
+  color:rgb(161, 161, 161);
   top: 200px;
   left: 35px;
   font: size 13px;
