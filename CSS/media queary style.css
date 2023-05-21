@@ -4,7 +4,7 @@
     width: auto;
     height: 98vh;
     margin: 0;
-    overflow: hidden;
+  
   }
 
   #titolo {
@@ -31,7 +31,7 @@
       position: absolute;
       font-size: 15px;
       height: 16px;
-      width: 88.5%;
+      width: 87.5%;
       top: -67px;
       padding: 22px;
       text-align: center;
