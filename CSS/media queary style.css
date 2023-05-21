@@ -2,7 +2,7 @@
 @media (max-width: 720px) {
   body {
     width: auto;
-    height: auto;
+    height: 98vh;
     margin: 0;
     overflow-y: scroll;
   }
