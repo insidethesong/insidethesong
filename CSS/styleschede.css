@@ -208,6 +208,7 @@ a:hover {
 #ascoltaora{
   display: block;
   position:absolute;
+  color:rgba(161,161,161);
   color:rgb(161, 161, 161);
   top: 200px;
   left: 35px;
