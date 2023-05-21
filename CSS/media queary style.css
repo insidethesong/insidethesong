@@ -28,14 +28,14 @@
   }
 
   #pags {
-      position: absolute;
+      position: relative;
       font-size: 15px;
       height: 16px;
-      width: 87.5%;
+      width: auto;
       top: -67px;
       padding: 22px;
+      margin: 0 auto;
       text-align: center;
-      margin-right: 5px;
   }
 
 
