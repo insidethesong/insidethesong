@@ -1,194 +1,187 @@
+/* Media query per telefoni */
+@media (max-width: 720px) {
+  body {
+    width: auto;
+    height: 98vh;
+    margin: 0;
+    overflow: hidden;
+  }
 
-  /* Media query per telefoni */
-  @media (max-width: 720px) {
-    body {
-      width: auto;
-      height: 98vh;
-      margin: 0;
-      overflow: hidden;
-      touch-action: pan-x pan-y;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-zoom: zoom;
-    max-zoom: 1.0;
-    }
-   #titolo{
-      font-size: 20px;
-      top:60px;
-      left:8px;
-    } 
-  
-    #logo {
-      top: 140px;
-      left: 28%;
-      max-width: 50%;
-      max-height: 50%;
-    }
-  
-    #barradiricerca {
-      width: 100%;
-      height: 50px;
-      top: 50px;
-    }
-  
-    #pags {
+  #titolo {
+    font-size: 20px;
+    top: 60px;
+    left: 8px;
+  }
+
+  #logo {
+    top: 140px;
+    left: 28%;
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+
+  #barradiricerca {
+    width: 100%;
+    height: 50px;
+    top: 50px;
+  }
+
+  #pags {
       position: absolute;
       font-size: 15px;
       height: 16px;
-      width: 100%;
+      width: 88.5%;
       top: -67px;
       padding: 22px;
       text-align: center;
-
-       }
-  
-    input[type="text"] {
-      left: 14%;
-      top: 370px;
-      width: 70%;
-      height: -13px;
-      font-size:11px;
-      padding:8px;
-      border:1px solid rgb(246, 246, 246);
-
-    }
-  
-    #elenco {
-      left: 9%;
-      right: 8%;
-      top: 410px;
-      width: 70%;
-      padding: 20px;
-      font-size: 11px;
-    }
-    #titoli{
-        font-size: 28px;
-    }
- 
+      margin-right: 5px;
+  }
 
 
-#iconamenu{
-
-  position: absolute;
-  z-index: 9999;
-  width: 36px;
-  height: 36px;
-  top: 55px;
-  left: 29px;
-  top: 47px;
-}
-#rosso{background-color:  rgb(153, 3, 3);}
-
-.dropdown-container {
-  position: relative;
-  left: 82%;
-  top: 0%;
-  display: inline-block;
-}
+  input[type="text"] {
+    left: 14%;
+    top: 370px;
+    width: 70%;
+    height: -13px;
+    font-size: 11px;
+    padding: 8px;
+    border: 1px solid rgb(246, 246, 246);
+  }
 
 
-.dropdown-content {
-  display: none;
+  #elenco {
+    left: 9%;
+    right: 8%;
+    top: 410px;
+    width: 70%;
+    padding: 20px;
+    font-size: 11px;
+  }
+
+  #titoli {
+    font-size: 28px;
+  }
+
+
+  #iconamenu {
+    position: absolute;
+    z-index: 9999;
+    width: 36px;
+    height: 36px;
+    top: 55px;
+    left: 29px;
+
+  }
+
+  #rosso {
+    background-color: rgb(153, 3, 3);
+  }
+
+
+  .dropdown-container {
+    position: relative;
+    left: 82%;
+    top: 0%;
+    display: inline-block;
+  }
+
+  /* Stile per il contenuto del dropdown */
+  .dropdown-content {
+    display: none;
     position: absolute;
     top: 45px;
     left: -131px;
     background-color: #0b0b0b;
     min-width: 173px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 22px 14px;
     z-index: 1;
     border: 1px solid white;
     border-radius: 0px 0px 25px 0px;
-}
-.dropdown-content a {
-  display: block;
-}
-.dropdown-container:hover .dropdown-content {
-  display: block;
-}
+  }
 
+  .dropdown-content a {
+    display: block;
+  }
 
+  /* Mostra il contenuto del dropdown al passaggio del mouse */
+  .dropdown-container:hover .dropdown-content {
+    display: block;
+  }
 
-
-
-
-
-
-
-
-
-
-
-  /*la nostra storia*/
-
-  #scriptstoria{
+  #scriptstoria {
     position: absolute;
     font-size: 12px;
-    top:150px;
-    left:3%;
-    width:86%;
-    border:1px solid rgb(246, 246, 246);
-
+    top: 150px;
+    left: 3%;
+    width: 86%;
+    border: 1px solid rgb(246, 246, 246);
   }
-  #scriptstoria2{
+
+  #scriptstoria2 {
     position: relative;
     font-size: 12px;
-    top:400px;
-    left:3%;
-    width:88%;
-    border:1px solid rgb(246, 246, 246);
-
+    top: 400px;
+    left: 3%;
+    width: 88%;
+    border: 1px solid rgb(246, 246, 246);
   }
-  #versione2{
+
+
+  #versione2 {
     font-size: 12px;
-    top:580px;
-    left:20%;
-    width:50%;
-    border:1px solid rgb(246, 246, 246);
+    top: 580px;
+    left: 20%;
+    width: 50%;
+    border: 1px solid rgb(246, 246, 246);
   }
 
-
-  /*schede*/
-  
 
   #giacomo {
     position: absolute;
     left: 3%;
     top: 20%;
-    font-size: 12;
+    font-size: 12px; 
   }
 
   #descrizionegia {
     position: absolute;
-    left:3%;
+    left: 3%;
     top: 23%;
-    font-size: 12px;
+    font-size: 12px; 
+  }
+
+
+  #francesca {
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    color: #ffffff;
+    font-size: 12px; 
+  }
+
+  #descrizionefra {
+    position: absolute;
+    left: 3%;
+    top: 33%;
+    color: #ffffff;
+    font-size: 12px; 
+  }
+
+
+  #contattaci {
+    position: absolute;
+    left: 3%;
+    top: 40%;
+    font-size: 15px;
+  }
+
+
+  #contattaci2 {
+    position: absolute;
+    left: 3%;
+    top: 45%;
+    font-size: 15px;
+  }
 }
-#francesca {
-  position: absolute;
-  left: 3%;
-  top: 30%;
-  color: #ffffff;
-  font-size: 12px;
-}
-#descrizionefra {
-  position: absolute;
-  left: 3%;
-  top: 33%;
-  color: #ffffff;
-  font-size: 12px;
-}
-#contattaci {
-  position: absolute;
-  left: 3%;
-  top: 40%;
-  font-size: 15px;
-}
-#contattaci2 {
-  position: absolute;
-  left: 3%;
-  top: 45%;
-  font-size: 15px;
-}}
