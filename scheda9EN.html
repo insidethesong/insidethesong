@@ -89,42 +89,7 @@ gtag('config', 'G-VM6XE5F9Z2');
 			
 		</ul>
 		            
-			<script>
-			function ricerca() {
-			  var input, filter, ul, li, i, txtValue;
-			  input = document.getElementById("barra-ricerca");
-			  filter = input.value.toUpperCase();
-			  ul = document.getElementById("elenco");
-			  li = ul.getElementsByTagName("li");
-			  for (i = 0; i < li.length; i++) {
-				txtValue = li[i].textContent || li[i].innerText;
-				if (txtValue.toUpperCase().indexOf(filter) > -1) {
-				  li[i].style.display = "";
-				} else {
-				  li[i].style.display = "none";
-				  
-				}
-			  }
-			}
-			</script>
-<script>
-		window.onload = function() {
-			var list = document.getElementyTaById("elenco");
-			var items = list.getElementsBgName("li");
-			var itemsArr = [];
-			for (var i in items) {
-				if (items[i].nodeType == 1) { // get rid of the whitespace text nodes
-					itemsArr.push(items[i]);
-				}
-			}
-			itemsArr.sort(function(a, b) {
-				return a.textContent.localeCompare(b.textContent);
-			});
-			for (i = 0; i < itemsArr.length; ++i) {
-				list.appendChild(itemsArr[i]);
-			}
-		}
-	</script>
+
 <h1 id="titoloalbum">GHETTO GOSPEL</h1>
 <p id="descrizionetesto">"Ghetto Gospel" is a renowned song by the legendary rapper 2Pac, posthumously released in 2004 on the album "Loyal to the Game." This track, characterized by an engaging rhythm and powerful lyrics, represents a message of hope and social awareness.<br>
     An interesting aspect of "Ghetto Gospel" is its collaboration with Elton John. The song combines 2Pac's rap and storytelling skills with Elton John's talent on the piano and vocals, creating a unique blend of musical genres. This surprising collaboration garnered attention from the audience and expanded the appeal of the song.<br>

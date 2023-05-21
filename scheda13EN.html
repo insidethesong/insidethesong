@@ -88,43 +88,7 @@ gtag('config', 'G-VM6XE5F9Z2');
 			<li class="titoli" onclick="this.style.display='block'"><a href="scheda19EN.html" style="color:rgb(242, 241, 241); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Sultans of swing - Dire Straits</a></li>
 			
 		</ul>
-		            
-			<script>
-			function ricerca() {
-			  var input, filter, ul, li, i, txtValue;
-			  input = document.getElementById("barra-ricerca");
-			  filter = input.value.toUpperCase();
-			  ul = document.getElementById("elenco");
-			  li = ul.getElementsByTagName("li");
-			  for (i = 0; i < li.length; i++) {
-				txtValue = li[i].textContent || li[i].innerText;
-				if (txtValue.toUpperCase().indexOf(filter) > -1) {
-				  li[i].style.display = "";
-				} else {
-				  li[i].style.display = "none";
-				  
-				}
-			  }
-			}
-			</script>
-<script>
-		window.onload = function() {
-			var list = document.getElementyTaById("elenco");
-			var items = list.getElementsBgName("li");
-			var itemsArr = [];
-			for (var i in items) {
-				if (items[i].nodeType == 1) { // get rid of the whitespace text nodes
-					itemsArr.push(items[i]);
-				}
-			}
-			itemsArr.sort(function(a, b) {
-				return a.textContent.localeCompare(b.textContent);
-			});
-			for (i = 0; i < itemsArr.length; ++i) {
-				list.appendChild(itemsArr[i]);
-			}
-		}
-	</script>
+
 	<h1 id="titoloalbum">ZOMBIE </h1>
 	<p id="descrizionetesto">"Zombie" is a single by The Cranberries released in 1994. At first glance, the song seems to be about the famous undead, but is it really so? <br>
 		No, in fact, this song aims to express dissent against the normalization of horror.<br>

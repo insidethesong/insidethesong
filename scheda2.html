@@ -91,42 +91,7 @@
 			
 		</ul>
 		            
-			<script>
-			function ricerca() {
-			  var input, filter, ul, li, i, txtValue;
-			  input = document.getElementById("barra-ricerca");
-			  filter = input.value.toUpperCase();
-			  ul = document.getElementById("elenco");
-			  li = ul.getElementsByTagName("li");
-			  for (i = 0; i < li.length; i++) {
-				txtValue = li[i].textContent || li[i].innerText;
-				if (txtValue.toUpperCase().indexOf(filter) > -1) {
-				  li[i].style.display = "";
-				} else {
-				  li[i].style.display = "none";
-				  
-				}
-			  }
-			}
-			</script>
-<script>
-		window.onload = function() {
-			var list = document.getElementyTaById("elenco");
-			var items = list.getElementsBgName("li");
-			var itemsArr = [];
-			for (var i in items) {
-				if (items[i].nodeType == 1) { // get rid of the whitespace text nodes
-					itemsArr.push(items[i]);
-				}
-			}
-			itemsArr.sort(function(a, b) {
-				return a.textContent.localeCompare(b.textContent);
-			});
-			for (i = 0; i < itemsArr.length; ++i) {
-				list.appendChild(itemsArr[i]);
-			}
-		}
-	</script>
+			
 		<h1 id="titoloalbum">MARACAIBO </h1>
         <p id="descrizionetesto">Nel 1975 Luisa Colombo insieme a David Riondino scrivono a quattro mani Maracaibo, una canzone che parla di una storia d’amore criminale ambientata in Venezuela. <br> Il brano piace molto ma il testo iniziale non viene accettato dalle case discografiche perché reputato scomodo. <br> Perché era così scomodo?  
             <br>Zazà oltre ad essere un’orecchiabile onomatopea è anche il nome di una ballerina che balla al Barracuda, un locale che le offre una copertura perché oltre che ballerina, è anche una trafficante di armi con Cuba. <br> Zazà è innamorata di Miguel che in realtà nel testo originale era Fidel, un chiaro riferimento a Fidel Castro ed è qui che nasce il problema per le case discografiche. È proprio per questo che la canzone fu pubblicata solamente nel 1981.

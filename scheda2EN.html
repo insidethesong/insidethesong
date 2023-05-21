@@ -94,43 +94,7 @@ gtag('config', 'G-VM6XE5F9Z2');
 
 			
 		</ul>
-		            
-			<script>
-			function ricerca() {
-			  var input, filter, ul, li, i, txtValue;
-			  input = document.getElementById("barra-ricerca");
-			  filter = input.value.toUpperCase();
-			  ul = document.getElementById("elenco");
-			  li = ul.getElementsByTagName("li");
-			  for (i = 0; i < li.length; i++) {
-				txtValue = li[i].textContent || li[i].innerText;
-				if (txtValue.toUpperCase().indexOf(filter) > -1) {
-				  li[i].style.display = "";
-				} else {
-				  li[i].style.display = "none";
-				  
-				}
-			  }
-			}
-			</script>
-<script>
-		window.onload = function() {
-			var list = document.getElementyTaById("elenco");
-			var items = list.getElementsBgName("li");
-			var itemsArr = [];
-			for (var i in items) {
-				if (items[i].nodeType == 1) { // get rid of the whitespace text nodes
-					itemsArr.push(items[i]);
-				}
-			}
-			itemsArr.sort(function(a, b) {
-				return a.textContent.localeCompare(b.textContent);
-			});
-			for (i = 0; i < itemsArr.length; ++i) {
-				list.appendChild(itemsArr[i]);
-			}
-		}
-	</script>
+	
 		<h1 id="titoloalbum">MARACAIBO </h1>
         <p id="descrizionetesto">In 1975, Luisa Colombo and David Riondino wrote Maracaibo together, a song about a criminal love story set in Venezuela. The song was well-liked, but the initial lyrics were not accepted by record companies because they were considered uncomfortable. <br>Why was it so uncomfortable?
             <br> Zaza is not only a catchy onomatopoeia but also the name of a dancer who dances at Barracuda, a club that offers her cover because she is also an arms dealer with Cuba. <br> Zazà is in love with Miguel who was actually Fidel in the original text, a clear reference to Fidel Castro, and this is where the problem for record companies arises. This is precisely why the song was only published in 1981.
