@@ -28,11 +28,11 @@ body {
 
   #pags {
     position: relative;
-    font-size: 15px;
-    height: 16px;
+    font-size: 14;
+    height: 29px;
     width: auto;
     top: -67px;
-    padding: 22px;
+    padding: 12px;
     margin: 0 auto;
     text-align: center;
     border: 2px solid white;
