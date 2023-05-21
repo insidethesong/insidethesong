@@ -57,6 +57,7 @@
     width: 70%;
     padding: 20px;
     font-size: 11px;
+    z-index: 100;
   }
 
   #titoli {
@@ -188,5 +189,6 @@
 footer{
   font-size: 12px;
   top:88%;
+  z-index: 1;
 }
 }
