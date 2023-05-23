@@ -284,13 +284,13 @@ body {
 #quattro,
 #cinque {
 	max-width: 100%;
+  margin-top: 60px;
 }
 
 .label {
-	color: white;
-	font-size: 20px;
-	text-transform: uppercase;
-	margin-top: 250px;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 25px;
 }
-
 
