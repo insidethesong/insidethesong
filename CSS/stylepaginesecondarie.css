@@ -249,3 +249,51 @@
 }
 
 
+
+.linea-separatrice {
+  position: relative;
+  border-top: 2px solid white;
+  width: 90%;
+  margin: 0 auto;
+  top: 835px;
+}
+
+#consigliati {
+  position: absolute;
+  top: 749px;
+  left: 51px;
+  color: white;
+  font-size: 30px;
+}
+
+#collaborazioni {
+  position: relative;
+}
+
+#logopp {
+  position: absolute;
+  left: -666px;
+  top: 141px;
+  scale: calc(0.1);
+
+}
+
+#logopp:hover {
+
+    border: 10px solid rgb(153, 3, 3);
+    transform: scale(1.);
+}
+
+
+
+#collaborazioni p {
+    position: absolute;
+  
+}
+
+#scriptcollab{
+  position: absolute;
+  top: 970px;
+  left: 228px;
+  color: white;
+}
