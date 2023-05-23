@@ -258,24 +258,33 @@
   top: 835px;
 }
 
+.linea-separatrice {
+  position: relative;
+  border-top: 2px solid white;
+  width: 90%;
+  margin: 0 auto;
+  top: 95px;
+}
+
 #consigliati {
   position: absolute;
-  top: 749px;
-  left: 51px;
+  top: 0px;
+  left: 53px;
   color: white;
   font-size: 30px;
 }
 
 #collaborazioni {
   position: relative;
+  top:810px;
+
 }
 
 #logopp {
   position: absolute;
-  left: -666px;
-  top: 141px;
-  scale: calc(0.1);
-
+  top: -570px;
+  left: -650px;
+  scale: calc(0.12);
 }
 
 #logopp:hover {
@@ -291,9 +300,10 @@
   
 }
 
-#scriptcollab{
+#scriptcollab {
   position: absolute;
-  top: 970px;
-  left: 228px;
+  top: 247px;
+  left: 261px;
   color: white;
+  font-size: 25px;
 }
