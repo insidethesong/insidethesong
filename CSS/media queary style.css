@@ -192,6 +192,8 @@ footer{
   z-index: 1;
 }
 
+  
+  
 
 #cont {
   top: 15%;
@@ -201,4 +203,44 @@ footer{
   position: relative;
 
 }
+   #collaborazioni {
+    position: relative;
+    top: 55%;
+}
+#consigliati{
+    top: 0%;
+    left: 5%;
+    font-size: 12px;
+}
+
+.linea-separatrice {
+  position: relative;
+  border-top: 2px solid white;
+  width: 90%;
+  margin: 0 auto;
+  top: 40px;
+}
+#scriptcollab {
+  position: absolute;
+  top: 60px;
+  left: 60%;
+  color: white;
+  font-size: 12px;
+}
+#logopp {
+  position: absolute;
+  top: -681px;
+  left: -724px;
+  scale: calc(0.07);
+}
+
+#scriptcollab {
+  position: absolute;
+  top: 119px;
+  left: 38%;
+  color: white;
+  font-size: 12px;
+}
+ 
+  
 }
