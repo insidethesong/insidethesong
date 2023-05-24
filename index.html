@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Insidethesong</title>  
-	<link rel="stylesheet" type="text/css" href="CSS/style.css"/> 
-	<link rel="stylesheet" type="text/css" href="CSS/media queary style.css"/> 
-	<script src="javascript/centrabarra.js"></script>
-	<script src="javascript/barra-ricerca.js"></script>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0,">
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VM6XE5F9Z2"></script>
-	<script>
-		  window.dataLayer = window.dataLayer || [];
-		 function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'G-VM6XE5F9Z2');
-	</script>   
+	<head>
+		<title>Insidethesong</title>  
+		<link rel="stylesheet" type="text/css" href="CSS/style.css"/> 
+		<link rel="stylesheet" type="text/css" href="CSS/media queary style.css"/> 
+		<script src="javascript/centrabarra.js"></script>
+		<script src="javascript/barra-ricerca.js"></script>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,">
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-VM6XE5F9Z2"></script>
+		<script>
+		  	window.dataLayer = window.dataLayer || [];
+		 	function gtag(){dataLayer.push(arguments);}
+		  	gtag('js', new Date());
+		  	gtag('config', 'G-VM6XE5F9Z2');
+		</script>   
 
 
-	<script>
-		window.onload = function() {
-			var list = document.getElementById("elenco");
-			var items = list.getElementsByTagName("li");
-			var itemsArr = [];
-			for (var i in items) {
-				if (items[i].nodeType == 1) { // get rid of the whitespace text nodes
+		<script>
+			window.onload = function() {
+				var list = document.getElementById("elenco");
+				var items = list.getElementsByTagName("li");
+				var itemsArr = [];
+				for (var i in items) {
+					if (items[i].nodeType == 1) { // get rid of the whitespace text nodes
 					itemsArr.push(items[i]);
+					}
 				}
-			}
-			itemsArr.sort(function(a, b) {
-				return a.textContent.localeCompare(b.textContent);
-			});
-			for (i = 0; i < itemsArr.length; ++i) {
-				list.appendChild(itemsArr[i]);
-			}
-		}
-	</script>
-</head>
+				itemsArr.sort(function(a, b) {
+					return a.textContent.localeCompare(b.textContent);
+				});
+				for (i = 0; i < itemsArr.length; ++i) {
+					list.appendChild(itemsArr[i]);
+				}
+				}
+		</script>
+	</head>
+
 	<body>
 		<img id="logo" src="foto/logodef1.png">
 		<div id="barradiricerca">
@@ -52,17 +53,21 @@
 								
 
 							<li class="pag">
+
 								<a href="index.html" style="color: rgb(255, 255, 255); text-decoration: none;">
 									<span style="color: rgb(153, 3, 3);">H</span><span class="hover-red">OME</span>
 								</a>
-							</li>                                                                 
+								
+							</li> 
+
 							<li class="pag">
 								<a href="la%20nostra%20storia.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white' ">MISSION</a>
 							</li>
 							                                         
 							<li class="pag">
 								<a href="documenti.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">DOCUMENTI</a>
-							</li>							                                        
+							</li>
+
 							<li class="pag">
 								<a href="chi%20siamo.html" style="color:rgb(255, 255, 255); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">CHI SIAMO</a>
 							</li>
