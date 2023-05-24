@@ -26,17 +26,28 @@
     height: 50px;
     top: 50px;
   }
-
   #pags {
-      position: relative;
-      font-size: 15px;
-      height: 16px;
-      width: auto;
-      top: -67px;
-      padding: 22px;
-      margin: 0 auto;
-      text-align: center;
-  }
+    position: relative;
+    font-size: 13px;
+    height: 16px;
+     width: auto;
+    top: -67px;
+    padding: 22px;   
+     margin: 0 auto;
+    text-align: center;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+
+
+.pag{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+  
 
 
   input[type="text"] {
