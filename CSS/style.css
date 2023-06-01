@@ -3,20 +3,18 @@
 /*SOLO PER LA PARTE FISSA*/
 
 
-body{
-  position:relative;
-  margin: 0 auto;
-  overflow-y: scroll;
-  width: 100%;
-  max-width: 100%;
+  body{ 
+    position:relative;
+    margin: 0 auto;
 
-  height:1920px;
-  width: 1081px;
-
-  background:  rgb(0, 0, 0);
-  border: solid 2px ;
-  border-color: rgb(255, 255, 255);
-  font-family: "Century Gothic", sans-serif;
+    overflow-y: scroll;
+    width: 1080px;
+    max-width: 1080px;
+    height:2000px;
+    background:  rgb(0, 0, 0);
+    border: solid 2px ;
+    border-color: white;
+    font-family: "Century Gothic", sans-serif;
 
 }
 
@@ -47,9 +45,9 @@ body{
 }
 
 #barradiricerca {
-  position: relative;
-  margin:  0 auto ;
-  width: 100%;
+  position: absolute;
+  margin:  auto;
+  width: 1078px;
   height: 50px;
   background-color: rgb(0, 0, 0);
 
@@ -58,16 +56,15 @@ body{
 }
 #pags{
 font-size: 30px;
-position: relative;
+position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px white solid;
   padding:10px;
   height:70px;
-  width: 98%;
-  top:0px;
-  margin:0 auto;
+  width: 1057px;
+  top:-33px;
   
 }
 .hover-red:hover {
@@ -114,6 +111,7 @@ textarea::placeholder {
   border: solid 2px white;
   border-radius: 0px 0px 25px 0px;
   padding: 50px;
+  z-index: 1000;
 
 }
 
@@ -262,14 +260,10 @@ top: 1820px;
 
 
 
-
-
-
 body {
   justify-content: center;
   align-items: center;
 }
-
 
 #cont {
 	display: flex;
@@ -289,68 +283,72 @@ body {
 #quattro,
 #cinque {
 	max-width: 100%;
-  margin-top: 60px;
 }
 
 .label {
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-top: 25px;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 250px;
 }
+.half-screen {
+  width: 50%;
+  height: 100%;
+  zoom: 85%}
 
- /*carosello*/
 
- .carousel {
-  position: relative;
-  width: 90%; 
-  height: 400px;
-  top:1036px;
-  margin:0 auto;
-  overflow: hidden;
-}
+  /*carosello*/
 
-.carousel-container {
-  display: flex;
-  animation: carousel-animation 10s linear infinite;
-}
+  .carousel {
+    position: relative;
+    width: 90%; 
+    height: 400px;
+    top:1036px;
+    margin:0 auto;
+    overflow: hidden;
+  }
+  
+  .carousel-container {
+    display: flex;
+    animation: carousel-animation 10s linear infinite;
+  }
+  
+  .carousel img {
+    z-index: 1;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    margin: 30px; /* Aggiunto margine destro per lo spazio tra le foto */
+    cursor: pointer;
+    border-radius: 5px 5px 30px 5px;
+    transition: transform 0.3s, border-color 0.3s;
+  }
+  
+  .carousel img:last-child {
+    margin-right: 0; /* Rimuove il margine destro per l'ultima immagine */
+  }
+  
+  .carousel img:hover {
+    transform: scale(1.1);
+    border: 2px solid  rgb(153, 3, 3);;
+  }
+  
+  @keyframes carousel-animation {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-210px); } /* 210px = larghezza immagine + margine destro */
+  }
 
-.carousel img {
-  z-index: 1;
-  max-width: 300px;
-  max-height: 300px;
-  object-fit: cover;
-  margin: 30px; /* Aggiunto margine destro per lo spazio tra le foto */
-  cursor: pointer;
-  border-radius: 5px 5px 30px 5px;
-  transition: transform 0.3s, border-color 0.3s;
-}
-
-.carousel img:last-child {
-  margin-right: 0; /* Rimuove il margine destro per l'ultima immagine */
-}
-
-.carousel img:hover {
-  transform: scale(1.1);
-  border: 2px solid  rgb(153, 3, 3);;
-}
-
-@keyframes carousel-animation {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-210px); } /* 210px = larghezza immagine + margine destro */
-}
-
-#tendenza{
-  position:relative;
-  font-size:35px;
-  color:white;
-  top:1090px;
-  left:52px;
-}
-#tendenzascript{
-  position:relative;
-  font-size:25px;
-  color:white;
-  top:1067px;
-  left:52px;
-}
+  #tendenza{
+    position:relative;
+    font-size:35px;
+    color:white;
+    top:1090px;
+    left:52px;
+  }
+  #tendenzascript{
+    position:relative;
+    font-size:25px;
+    color:white;
+    top:1067px;
+    left:52px;
+  }
