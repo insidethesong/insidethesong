@@ -152,75 +152,75 @@ max-width: 90%;
 #w1{
 position: relative;
 top: 200px;
-left: 150px;
+left: 7px;
 max-width: 80%;
 max-height: 25%;
 }
 
 
 #w2{
-  position: relative;
-  top: 250px;
-  left: 90px;
-  max-width: 40%;
-  max-height: 30%;
+position: relative;
+top: 352px;
+left: 90px;
+max-width: 40%;
+max-height: 30%;
   }
   
   #w3{
-    position: relative;
-    top: 250px;
-    left: 170px;
-    max-width: 40%;
-    max-height: 30%;
+ position: relative;
+ top: 307px;
+ left: 17px;
+ max-width: 40%;
+ max-height: 30%;
     }
    
     #w4{
-      position: relative;
-      top: 300px;
-      left: 90px;
+   position: relative;
+    top: 308px;
+    left: 166px;
       max-width: 40%;
       max-height: 30%;
       }
       
       #w5{
-        position: relative;
-        top: 300px;
-        left: 170px;
-        max-width: 40%;
-        max-height: 30%;
+    position: relative;
+    top: 323px;
+    left: 15px;
+    max-width: 40%;
+    max-height: 30%;
         }
         
   
         #w6{
-          position: relative;
-          top: 350px;
-          left: 90px;
-          max-width: 40%;
-          max-height: 30%;
+        position: relative;
+        top: 314px;
+        left: 163px;
+        max-width: 40%;
+        max-height: 30%;
           }
           
           #w7{
-              position: relative;
-              top: 350px;
-              left: 170px;
-              max-width: 40%;
-              max-height: 30%;
+       position: relative;
+       top: 347px;
+       left: 15px;
+       max-width: 40%;
+        max-height: 30%;
             }
             
             #w8{
-                position: relative;
-                top: 400px;
-                left: 90px;
-                max-width: 40%;
-                max-height: 30%;
+      position: relative;
+      top: 346px;
+      left: 162px;
+      max-width: 40%;
+      max-height: 30%;
               }
               
-              #w9{
-                  position: relative;
-                  top: 400px;
-                  left: 170px;
-                  max-width: 40%;
-                  max-height: 30%;
+              #w9{    
+       position: relative;
+       top: 400px;
+       left: 318px;
+       max-width: 40%;
+       max-height: 30%;
                 }
           
 
