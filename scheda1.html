@@ -88,11 +88,36 @@
 
 			
 		</ul>
-		            
+
+		<div class="container">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
+				  
 			
 
 	
 			<h1 id="titoloalbum">GIVE PEACE A CHANCE </h1>
+			<p id="section2"></p>
 			<p id="descrizionetesto">"Give Peace a Chance" è una canzone scritta da John Lennon nel 1969 ed è diventata un inno del movimento pacifista durante la guerra in Vietnam. <br>
 				La sua storia è profondamente legata a una forma di protesta pacifica chiamata “bed-in”  in cui Lennon e sua moglie Yoko Ono rimanevano a letto a parlare di pace e a suonare.<br><br>
 		
@@ -114,6 +139,7 @@
 		</a>
 
 			<H2 id="nomeautore">JOHN LENNON</H2>
+			<p id="section1"></p>
        		 <p id="descrizioneautore">John Lennon è stato un musicista, cantautore e attivista britannico, famoso per essere stato uno dei membri fondatori dei Beatles.  Nato il 9 ottobre 1940 a Liverpool, in Inghilterra. 
 
 				<br><br>
