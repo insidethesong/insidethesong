@@ -299,3 +299,58 @@ body {
   margin-top: 25px;
 }
 
+ /*carosello*/
+
+ .carousel {
+  position: relative;
+  width: 90%; 
+  height: 400px;
+  top:1036px;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+.carousel-container {
+  display: flex;
+  animation: carousel-animation 10s linear infinite;
+}
+
+.carousel img {
+  z-index: 1;
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  margin: 30px; /* Aggiunto margine destro per lo spazio tra le foto */
+  cursor: pointer;
+  border-radius: 5px 5px 30px 5px;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.carousel img:last-child {
+  margin-right: 0; /* Rimuove il margine destro per l'ultima immagine */
+}
+
+.carousel img:hover {
+  transform: scale(1.1);
+  border: 2px solid  rgb(153, 3, 3);;
+}
+
+@keyframes carousel-animation {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-210px); } /* 210px = larghezza immagine + margine destro */
+}
+
+#tendenza{
+  position:relative;
+  font-size:35px;
+  color:white;
+  top:1090px;
+  left:52px;
+}
+#tendenzascript{
+  position:relative;
+  font-size:25px;
+  color:white;
+  top:1067px;
+  left:52px;
+}
