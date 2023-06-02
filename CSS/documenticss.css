@@ -124,44 +124,44 @@ left: 15px;
 max-width: 90%;
 }
 #w1{
-position: relative;
-    top: 200px;
-    left: 62px;
-    max-width: 80%;
-    max-height: 25%
+  position: relative;
+  top: 1%;
+  left: 2%;
+  max-width: 60%;
+  max-height: 25%
 }
 
 
 #w2{
-position: relative;
-    top: 250px;
-    left: 73px;
-    max-width: 40%;
-    max-height: 30%;
+  position: relative;
+  top: 3%;
+  left: 3%;
+  max-width: 40%;
+  max-height: 30%;
   }
   
   #w3{
-   position: relative;
-    top: 207px;
-    left: 90px;
+    position: relative;
+    top: 1%;
+    left: 9%;
     max-width: 40%;
     max-height: 30%;
     }
    
     #w4{
-     position: relative;
-    top: 331px;
-    left: 315px;
-    max-width: 40%;
-    max-height: 30%;
+      position: relative;
+      top: 3.4%;
+      left: 24%;
+      max-width: 40%;
+      max-height: 30%;
       }
       
       #w44{
-    position: relative;
-    top: 730px;
-    left: 26px;
-    max-width: 26%;
-    max-height: 20%;
+        position: absolute;
+        top: 24%;
+        color: #fafafa;
+        font-size: 20px;
+        left: 70%;
       }
      
        #w5{
@@ -174,19 +174,19 @@ position: relative;
         
   
         #w6{
-     position: relative;
-    top: 836px;
-    left: 230px;
-    max-width: 40%;
-    max-height: 30%;
+          position: relative;
+          top: 8.4%;
+          left: 16%;
+          max-width: 40%;
+          max-height: 30%;
           }
           
           #w7{
-    position: relative;
-    top: 364px;
-    left: 92px;
-    max-width: 40%;
-    max-height: 30%;
+            position: relative;
+            top: 3.64%;
+            left: 9%;
+            max-width: 40%;
+            max-height: 30%;
             }
             
             #w8{
@@ -208,25 +208,25 @@ position: relative;
 
 #titw1 {
   position: absolute;
-  top: 1598px;
+  top: 16.5%;
   color: #fafafa;
   font-size: 20px;
-  left: 309px;
+  left: 25%;
 }
 #titw2 {
   position: absolute;
-  top: 1559px;
+  top: 16.5%;
   color: #fafafa;
   font-size: 20px;
-  left: 729px;
+  left: 68%;
 }
 
 #titw3 {
   position: absolute;
-    top: 2231px;
+    top: 24%;
     color: #fafafa;
     font-size: 20px;
-    left: 200px;
+    left: 21%;
 }
 
 #titw4 {
@@ -239,42 +239,42 @@ position: relative;
 
 #titw5 {
   position: absolute;
-  top: 2818px;
+  top: 30.5%;
   color: #fafafa;
   font-size: 20px;
-  left: 191px;
+  left: 19%;
 }
 
 #titw6 {
-  position: absolute;
-    top: 3366px;
+  position: relative;
+    top: -6.56%;
     color: #fafafa;
     font-size: 20px;
-    left: 160px;
+    left: 65%;
 }
 
 #titw7 {
   position: absolute;
-    top: 3366px;
+    top: 41.7%;
     color: #fafafa;
     font-size: 20px;
-    left: 785px;
+    left: 70.5%;
 }
 
 #titw8 {
   position: absolute;
-    top: 3896px;
-    color: #fafafa;
-    font-size: 20px;
-    left: 773px;
+  top: 36.3%;
+  color: #fafafa;
+  font-size: 20px;
+  left: 21%;
 }
 
 #titw9 {
   position: absolute;
-    top: 3896px;
-    color: #fafafa;
-    font-size: 20px;
-    left: 199px;
+  top: 41.7%;
+  color: #fafafa;
+  font-size: 20px;
+  left: 20%;
 }
 
 
