@@ -13,15 +13,15 @@ html {
 }
 #giacomo {
   position: absolute;
-  left: 35px;
-  top: 250px;
+  left: 252px;
+  top: 242px;
   color: #fafafa;
   font-size: 25px;
 }
 
 #descrizionegia {
   position: absolute;
-  left: 35px;
+  left: 252px;
   top: 275px;
   color: #ffffff;
   font-size: 25px;
@@ -29,16 +29,16 @@ html {
 
 #francesca {
   position: absolute;
-  left:35px;
-  top: 355px;
+  left: 252px;
+  top: 390px;
   color: #ffffff;
   font-size: 25px;
 }
 
 #descrizionefra {
   position: absolute;
-  left:35px;
-  top: 380px;
+  left: 252px;
+  top: 427px;
   color: #ffffff;
   font-size: 25px;
 }
@@ -275,7 +275,7 @@ html {
 
 #collaborazioni {
   position: relative;
-  top:810px;
+  top:1227px;
 
 }
 
@@ -307,6 +307,47 @@ html {
   font-size: 25px;
 }
 
+#titolosocial{
+  position: absolute;
+  top: 0px;
+  left: 53px;
+  color: white;
+  font-size: 30px;
+}
+
+#logoinsta{
+  position: absolute;
+  scale: calc(0.0430);
+  top: 37px;
+  right: 198px;
+}
+
+#logotw{
+  position: absolute;
+  scale: calc(0.120);
+  top: 688px;
+  right: 740px;
+}
+#nomeinstagram{
+  position: absolute;
+  right: 740px;
+  top: 819px;
+  color: #ffffff;
+  font-size: 25px;
+}
+#nometwitter{
+  position: absolute;
+  right: 740px;
+  top: 920px;
+  color: #ffffff;
+  font-size: 25px;
+}
+#nometwitter:hover{
+  color:rgb(153, 3, 3)
+}
+#nomeinstagram:hover{
+  color:rgb(153, 3, 3)
+}
 
 .docu{
 position: relative;
