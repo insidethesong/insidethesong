@@ -88,7 +88,30 @@
 			<li class="titoli" onclick="this.style.display='block'"><a href="scheda19.html" style="color:rgb(242, 241, 241); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Sultans of swing - Dire Straits</a></li>
 			
 		</ul>
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
 
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
+		  
 		<h1 id="titoloalbum">HIT THE ROAD JACK</h1>
         <p id="descrizionetesto">"Hit the Road Jack" è un brano R&B scritto da Percy Mayfield e registrato dal cantante e musicista Ray Charles nel 1960. La canzone è diventata uno dei successi più celebri di Charles ed è considerata un classico del genere. <br>
             La canzone è stata ispirata da una frase che Mayfield sentì da una donna durante una discussione perentoria: "Why don't you hit the road, Jack?" ("Perché non prendi la strada, Jack?"). Da qui, Mayfield ha sviluppato il testo della canzone, che parla di un uomo che viene cacciato via dalla sua compagna. <br>

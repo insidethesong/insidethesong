@@ -88,7 +88,30 @@
 			<li class="titoli" onclick="this.style.display='block'"><a href="scheda19.html" style="color:rgb(242, 241, 241); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Sultans of swing - Dire Straits</a></li>
 			
 		</ul>
-		            
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
+		         
 		<h1 id="titoloalbum">JOLENE </h1>
         <p id="descrizionetesto">La canzone "Jolene" è stata scritta da Dolly Parton. L'ispirazione per il testo della canzone è venuta da un'esperienza reale di Dolly. Durante un concerto, una giovane fan le chiese un’autografo e le confidò di chiamarsi Jolene, un nome che ha colpito particolarmente la cantante. <br>
             "Jolene" racconta la storia di una donna che implora un'altra donna di non portarle via il suo uomo. Il testo esprime la paura dell'abbandono e l'insicurezza emotiva che può sorgere nelle relazioni. La canzone affronta temi universali come la gelosia e l'amore non corrisposto, suscitando empatia e connessione con il pubblico. <br>
