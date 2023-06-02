@@ -338,13 +338,12 @@ max-width: 90%;
 }
 
 #wtitolo{
-position: relative;
-color: #fafafa;
-font-size: 25px;
-top: 215px;
-left: 15px;
-max-width: 90%;
-text-align: center;
+  position: relative;
+  color: #fafafa;
+  font-size: 25px;
+  top: 210px;
+  left: 15px;
+  max-width: 90%;
 
 }
 #w1{
@@ -432,75 +431,75 @@ position: relative;
 
 #titw1 {
   position: absolute;
-  top: 1559px;
+  top: 1598px;
   color: #fafafa;
   font-size: 25px;
-  left: 256px;
-}
+  left: 309px;
  
 #titw2 {
   position: absolute;
   top: 1559px;
   color: #fafafa;
   font-size: 25px;
-  left: 256px;
+  left: 729px;
 }
 
 #titw3 {
   position: absolute;
-  top: 1559px;
-  color: #fafafa;
-  font-size: 25px;
-  left: 256px;
+    top: 2231px;
+    color: #fafafa;
+    font-size: 25px;
+    left: 200px;
 }
 
 #titw4 {
   position: absolute;
-  top: 1559px;
+  top: 2231px;
   color: #fafafa;
   font-size: 25px;
-  left: 256px;
+  left: 761px;
 }
 
 #titw5 {
   position: absolute;
-  top: 1559px;
+  top: 2818px;
   color: #fafafa;
   font-size: 25px;
-  left: 256px;
+  left: 191px;
 }
 
 #titw6 {
   position: absolute;
-  top: 1559px;
-  color: #fafafa;
-  font-size: 25px;
-  left: 256px;
+    top: 3366px;
+    color: #fafafa;
+    font-size: 25px;
+    left: 160px;
 }
 
 #titw7 {
   position: absolute;
-  top: 1559px;
-  color: #fafafa;
-  font-size: 25px;
-  left: 256px;
+    top: 3366px;
+    color: #fafafa;
+    font-size: 25px;
+    left: 785px;
 }
 
 #titw8 {
   position: absolute;
-  top: 1559px;
-  color: #fafafa;
-  font-size: 25px;
-  left: 256px;
+    top: 3896px;
+    color: #fafafa;
+    font-size: 25px;
+    left: 773px;
 }
 
 #titw9 {
   position: absolute;
-  top: 1559px;
-  color: #fafafa;
-  font-size: 25px;
-  left: 256px;
+    top: 3896px;
+    color: #fafafa;
+    font-size: 25px;
+    left: 199px;
 }
+
 
 
 #lf{
