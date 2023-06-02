@@ -431,12 +431,13 @@ position: relative;
           
 
 #titw1{
-  position: relative;
-  top: 300px;
+  position: absolute;
+  top: 1559px;
   color: #fafafa;
   font-size: 25px;
-  left: 15px;
+  left: 256px;
 }
+ 
 
 
 
