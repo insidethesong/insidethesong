@@ -8,11 +8,10 @@ html {
 body{ 
   position:relative;
   margin: 0 auto;
-
   overflow-y: scroll;
   width: 1080px;
   max-width: 1080px;
-  height:20000px;
+  height:10000px;
   background:  rgb(0, 0, 0);
   border: solid 2px ;
   border-color: white;
@@ -44,6 +43,21 @@ position: absolute;
   
 }
 .hover-red:hover {
+  color: rgb(153, 3, 3);
+}
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  /*COLORE LINK*/
   color: rgb(153, 3, 3);
 }
 
