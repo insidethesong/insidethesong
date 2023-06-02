@@ -88,9 +88,32 @@
 			<li class="titoli" onclick="this.style.display='block'"><a href="scheda19.html" style="color:rgb(242, 241, 241); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Sultans of swing - Dire Straits</a></li>
 			
 		</ul>
-		            
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>          
 	
 		<h1 id="titoloalbum">AIDA</h1>
+		<p id="section2"></p>
         <p id="descrizionetesto">In questa canzone si sente il nome Aida, ora viene da chiedersi, chi è Aida? Rino Gaetano paragona Aida all’Italia. Questa donna simbolica rivive i suoi ricordi, le sue passioni e le sue emozioni, questo significa che viene raccontata la storia italiana dalle guerre di colonizzazione fino al dopoguerra. <br>
             Ma perché Rino Gaetano ha scelto proprio il nome Aida? Perché l’autore vuole fare un omaggio a Giuseppe Verdi, infatti si può notare come la melodia iniziale sia molto simile alla marcia trionfale dell’Aida di Verdi. <br>
             La canzone comincia descrivendo quanto sia difficile per una ragazza di inizio ‘900 vivere una cosa come la propria sessualità, in Italia infatti, c’è una forte componente cattolica ed è per questo che la canzone dice “le madonne i rosari un tabù”.  Si parla poi della guerra quando dice “1000 mari”, è un riferimento a un pensiero degli antichi romani che viene poi ripreso dalla politica di estrema destra dell'epoca. <br>
@@ -104,6 +127,7 @@
 		   <p id="ascoltaora">(clicca sulla copertina e ascolta ora)</p>
 
         <H2 id="nomeautore">RINO GAETANO</H2>
+		<p id="section1"></p>
         <p id="descrizioneautore"> Rino Gaetano è stato un cantautore italiano, nato il 29 ottobre 1950 a Crotone, in Calabria. Sin da giovane, Gaetano dimostrò una grande passione per la musica. Durante gli anni universitari a Roma, iniziò a suonare la chitarra e ad esibirsi in vari locali e club della città. <br>
             La sua carriera musicale prese una svolta significativa nel 1974, quando pubblicò il suo primo album intitolato "Ingresso libero". L'album ottenne un buon successo, soprattutto grazie a canzoni come "Ma il cielo è sempre più blu" e "Gianna". Quest'ultima canzone divenne un vero e proprio tormentone e contribuì a far conoscere Gaetano a un pubblico più ampio. <br>
             Gaetano era noto per il suo stile musicale eclettico, che mescolava rock, folk e pop. Le sue canzoni erano caratterizzate da testi ironici, critici e spesso provocatori, che affrontavano temi sociali e politici. Le sue liriche toccavano argomenti come la corruzione, l'ipocrisia e le disuguaglianze sociali, ma erano anche intrise di un senso di speranza e di amore per la vita. <br>

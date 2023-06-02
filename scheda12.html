@@ -88,9 +88,36 @@
 			<li class="titoli" onclick="this.style.display='block'"><a href="scheda19.html" style="color:rgb(242, 241, 241); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Sultans of swing - Dire Straits</a></li>
 			
 		</ul>
-		            
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
+				  
+			
+       
 	
 		<h1 id="titoloalbum">STAND BY ME </h1>
+		<p id="section2"></p>
+
         <p id="descrizionetesto">"Stand by Me" è una canzone iconica scritta da Ben E. King, Jerry Leiber e Mike Stoller. Fu pubblicata nel 1961 come singolo e successivamente inclusa nell'omonimo album di Ben E. King. <br>
             "Stand by Me" trae ispirazione da un brano gospel del 1955 intitolato "Lord Stand by Me". Ben E. King, uno dei compositori e interpreti del brano, ha rielaborato la melodia e ha creato un nuovo testo che parla di amicizia e supporto reciproco. <br>
             Il testo di "Stand by Me" parla di solidarietà, amicizia e supporto emotivo reciproco con un testo che tocca il cuore delle persone. La canzone trasmette un messaggio di fiducia e incoraggia le persone a stare vicine nei momenti difficili, creando un legame di sostegno e conforto. <br>
@@ -99,6 +126,8 @@
 			<p id="ascoltaora">(clicca sulla copertina e ascolta ora)</p>
             
         <H2 id="nomeautore">BEN E. KING</H2>
+		<p id="section1"></p>
+
         <p id="descrizioneautore"> Ben E. King, neto nel 1938 a Handerson, in Caroline del Nord, è stato un cantante e compositore americano. È noto principalmente per la sua carriera solista e per essere stato il frontman del gruppo vocale The Drifters. <br>
             Dopo alcuni anni con i The Drifters, Ben E. King decise di intraprendere una carriera solista. Nel 1961 pubblicò il suo singolo di debutto, "Spanish Harlem", che raggiunse un notevole successo e lo consolidò come artista indipendente. Tuttavia, è con il brano "Stand by Me", pubblicato nel 1961, che raggiunse l'apice del successo. La canzone divenne un classico e ancora oggi è considerata uno dei più grandi successi della storia della musica. <br>
             La musica di Ben ha influenzato numerosi artisti successivi, e le sue canzoni sono state reinterpretate da molti artisti di fama internazionale. La sua carriera è stata caratterizzata da un mix di generi musicali, tra cui il rhythm and blues, il soul e il pop. <br>

@@ -90,8 +90,33 @@ gtag('config', 'G-VM6XE5F9Z2');
 		</ul>
 
 
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
 
 <h1 id="titoloalbum">I WILL SURVIVE </h1>
+<p id="section2"></p>
+
 <p id="descrizionetesto">The lyrics of "I Will Survive" hold a deep meaning of resilience, self-esteem, and rebirth after heartbreak. The song is an anthem of inner strength and overcoming adversity.<br>
 	In the lyrics, the song's protagonist initially expresses the pain and sadness of a relationship's end. However, as time passes, she realizes that she can face the situation and find the strength to move on. The song transforms from a lament of a broken heart to an ode of self-esteem and determination.<br>
 	The chorus "I will survive" becomes a powerful mantra representing the will to overcome disappointment and find new happiness. The protagonist gains a newfound self-awareness and empowerment, promising not to be defeated by life's obstacles.<br>
@@ -100,6 +125,8 @@ gtag('config', 'G-VM6XE5F9Z2');
 	Its message of resilience and self-determination has made "I Will Survive" a timeless song, continuing to inspire and motivate people across different generations.<br>	
 </p>	
 <H2 id="nomeautore">GLORIA GAYNOR</H2>
+<p id="section1"></p>
+
 <p id="descrizioneautore"> Gloria Gaynor is an American singer born in 1949 in Newark, New Jersey. She is considered one of the icons of disco music in the '70s and '80s.<br>
     Gaynor began her music career in the '60s, performing in various clubs and venues. She signed a record deal in 1974, but it was her 1978 album "Love Tracks" that propelled her to international success.<br>
     The album's lead single, "I Will Survive," became a huge hit and topped the charts in several countries, including the United States and the United Kingdom.<br>

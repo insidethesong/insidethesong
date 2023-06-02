@@ -89,10 +89,35 @@ gtag('config', 'G-VM6XE5F9Z2');
 			
 		</ul>
 		            
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
 
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
+				  
 
 
 <h1 id="titoloalbum">STAND BY ME </h1>
+<p id="section2"></p>
+
         <p id="descrizionetesto">"Stand by Me" is an iconic song written by Ben E. King, Jerry Leiber, and Mike Stoller. It was released as a single in 1961 and later included in Ben E. King's self-titled album.<br>
             "Stand by Me" draws inspiration from a gospel song titled "Lord Stand by Me" from 1955. Ben E. King, one of the composers and performers of the song, reworked the melody and created new lyrics that speak about friendship and mutual support.<br>
             The lyrics of "Stand by Me" convey solidarity, friendship, and emotional support with words that touch people's hearts. The song delivers a message of trust and encourages people to stand by each other in difficult times, creating a bond of support and comfort.<br>
@@ -100,6 +125,8 @@ gtag('config', 'G-VM6XE5F9Z2');
         </p>    
             
         <H2 id="nomeautore">BEN E. KING</H2>
+		<p id="section1"></p>
+
         <p id="descrizioneautore"> Ben E. King, born in 1938 in Henderson, North Carolina, was an American singer and songwriter. He is primarily known for his solo career and for being the frontman of the vocal group The Drifters.<br>
             After spending some years with The Drifters, Ben E. King decided to pursue a solo career. In 1961, he released his debut single, "Spanish Harlem," which achieved considerable success and established him as an independent artist. However, it was with the song "Stand by Me," released in 1961, that he reached the pinnacle of success. The song became a classic and is still considered one of the greatest hits in music history.<br>
             Ben's music has influenced numerous subsequent artists, and his songs have been covered by many internationally acclaimed performers. His career was characterized by a blend of musical genres, including rhythm and blues, soul, and pop.<br>

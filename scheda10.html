@@ -89,10 +89,37 @@
 			
 		</ul>
 	
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
+				  
+			
 	
 		
                 
 <h1 id="titoloalbum">BONOBO POWER</h1>
+<p id="section2"></p>
+
 <p id="descrizionetesto">"Bonobo Power" è una canzone incisiva e provocatoria dell'artista italiano Caparezza, pubblicata nel 2006 nell'album "Habemus Capa". Questo brano, caratterizzato da un sound unico e testi ricchi di significato, rappresenta un inno alla consapevolezza e alla rivoluzione interiore.<br><br>
 
     Un aspetto interessante di "Bonobo Power" è la sua fusione di generi musicali diversi. Caparezza mescola abilmente elementi di rap, rock e musica elettronica, creando un suono innovativo e coinvolgente. Questa combinazione di stili musicali riflette la versatilità e la creatività dell'artista stesso.<br><br>
@@ -112,6 +139,7 @@
 <p id="ascoltaora">(clicca sulla copertina e ascolta ora)</p>
 
 <H2 id="nomeautore">CAPAREZZA</H2>
+<p id="section1"></p>
     <p id="descrizioneautore">Caparezza, pseudonimo di Michele Salvemini, è un cantautore italiano nato il 9 ottobre 1973 a Molfetta, in provincia di Bari. Caparezza ha guadagnato notorietà per la sua musica eterogenea e per la sua abilità nel mescolare diversi generi musicali, come rap, pop, rock e musica elettronica. Sin da giovane, Caparezza ha dimostrato un interesse per l'arte e la musica, sviluppando una forte passione per il rap e la scrittura dei testi. Ha iniziato la sua carriera nel mondo della musica negli anni '90 e ha continuato a crescere in popolarità grazie alla sua creatività, alle sue liriche taglienti e al suo stile unico. Oltre alla sua carriera musicale, Caparezza è noto per il suo approccio satirico e ironico, spesso esprimendo critiche sociali e politiche attraverso le sue canzoni.</p>
     <img id="autore"  src="foto/Caparezza.jpg" alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgds.it%2Fvideo%2Fcultura%2F2021%2F05%2F28%2Fspeciale-weekend-caparezza-su-rgs-il-cantautore-cambia-pelle-con-il-suo-nuovo-album-exuvia-e8a87cfa-aaae-441d-83d8-358184724a7b%2F&psig=AOvVaw3dMtuOpcPzT3WAu1jK-RKJ&ust=1684163720385000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCPj07P-M9f4CFQAAAAAdAAAAABAH">
 

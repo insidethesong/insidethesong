@@ -88,8 +88,35 @@
 			<li class="titoli" onclick="this.style.display='block'"><a href="scheda19.html" style="color:rgb(242, 241, 241); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Sultans of swing - Dire Straits</a></li>
 			
 		</ul>
+
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
+				  
+			
 	
 		<h1 id="titoloalbum">ZOMBIE </h1>
+		<p id="section2"></p>
         <p id="descrizionetesto">Zombie è un singolo dei Cranberries uscito nel 1994. La canzone a primo impatto sembra parli dei famosi morti viventi, ma è davvero così? <br>
             No infatti questa canzone vuole esprime il dissenso contro la normalizzazione dell’orrore. <br>
             La canzone è stata scritta subito dopo l’attentato avvenuto a Warrington, in Inghilterra, dove due bambini sono stati uccisi da una bomba dell’IRA. Il testo della canzone infatti contiene riferimenti alla storia dell’irlanda del nord e alla lotta per l’indipendenza dell’Irlanda. <br>
@@ -101,7 +128,8 @@
 			<p id="ascoltaora">(clicca sulla copertina e ascolta ora)</p>
 		
 			<H2 id="nomeautore">CRANBERRIES</H2>
-        <p id="descrizioneautore"> La band si è formata a Limerick, in Irlanda, nel 1989. I membri fondatori erano la cantante Dolores O'Riordan, il chitarrista Noel Hogan, il bassista Mike Hogan e il batterista Fergal Lawler. <br>
+			<p id="section1"></p>
+       		<p id="descrizioneautore"> La band si è formata a Limerick, in Irlanda, nel 1989. I membri fondatori erano la cantante Dolores O'Riordan, il chitarrista Noel Hogan, il bassista Mike Hogan e il batterista Fergal Lawler. <br>
             Il nome della band è stato ispirato da un film del 1962 chiamato "The Crawling Hand", in cui un'entità aliena assume il controllo del braccio di una persona morta. <br>
             Il primo album dei Cranberries, "Everybody Else Is Doing It, So Why Can't We?", è stato pubblicato nel 1993 ed è stato un successo internazionale. La canzone più famosa dell'album, "Linger", è diventata un hit in tutto il mondo. <br>
             Nel 2003, la band ha deciso di prendersi una pausa per concentrarsi su progetti solisti. Si sono riuniti nel 2009 per iniziare a registrare un nuovo album, ma il progetto è stato interrotto dalla morte improvvisa di Dolores O'Riordan nel gennaio 2018. <br>

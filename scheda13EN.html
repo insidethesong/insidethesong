@@ -89,7 +89,32 @@ gtag('config', 'G-VM6XE5F9Z2');
 			
 		</ul>
 
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
 	<h1 id="titoloalbum">ZOMBIE </h1>
+	<p id="section2"></p>
+
 	<p id="descrizionetesto">"Zombie" is a single by The Cranberries released in 1994. At first glance, the song seems to be about the famous undead, but is it really so? <br>
 		No, in fact, this song aims to express dissent against the normalization of horror.<br>
 		The song was written shortly after the bombing in Warrington, England, where two children were killed by an IRA bomb. The lyrics of the song contain references to the history of Northern Ireland and the struggle for Ireland's independence.<br>
@@ -102,6 +127,8 @@ gtag('config', 'G-VM6XE5F9Z2');
 	<p id="ascoltaora">(click on the album and listen now</p>
 
 	<H2 id="nomeautore">CRANBERRIES</H2>
+	<p id="section1"></p>
+
 	<p id="descrizioneautore"> The band was formed in Limerick, Ireland, in 1989. The founding members were singer Dolores O'Riordan, guitarist Noel Hogan, bassist Mike Hogan, and drummer Fergal Lawler. <br>
         The band's name was inspired by a 1962 film called "The Crawling Hand," in which an alien entity takes control of a dead person's hand. <br>
         The Cranberries' first album, "Everybody Else Is Doing It, So Why Can't We?", was released in 1993 and became an international success. The album's most famous song, "Linger," became a hit worldwide.<br>

@@ -90,11 +90,34 @@
 			
 		</ul>
 		
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
 
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
 	
 		
                 
 <h1 id="titoloalbum">IO VENGO DALLA LUNA</h1>
+<p id="section2"></p>
 <p id="descrizionetesto">"Io vengo dalla luna" è una canzone dell'artista italiano Caparezza, inclusa nel suo album del 2003 intitolato "Verità supposte". <br><br>La canzone presenta un mix di rap, pop e influenze elettroniche, creando un sound energico e coinvolgente. A livello tematico, "Io vengo dalla luna" affronta il concetto di diversità e di sentirsi estranei o fuori posto nella società. Il testo parla di un individuo che si sente alieno, come se non appartenesse al mondo in cui vive, e trova conforto nell'idea di provenire da un luogo diverso, simboleggiato dalla luna. <br>La canzone trasmette un messaggio di accettazione di sé e di valorizzazione delle peculiarità personali.<br><br>
 
     Curiosità: "Io vengo dalla luna" ha riscosso un grande successo in Italia, ottenendo un notevole apprezzamento sia da parte della critica che del pubblico. Il brano è diventato un inno per molti giovani che si identificano con il senso di estraneità e che trovano conforto nell'idea di essere unici e diversi. La canzone è diventata uno dei maggiori successi di Caparezza e ha contribuito a consolidare la sua reputazione come artista innovativo e originale.<br><br>
@@ -106,8 +129,9 @@
 </a>
 
 <H2 id="nomeautore">CAPAREZZA</H2>
-    <p id="descrizioneautore">Caparezza, pseudonimo di Michele Salvemini, è un cantautore italiano nato il 9 ottobre 1973 a Molfetta, in provincia di Bari. Caparezza ha guadagnato notorietà per la sua musica eterogenea e per la sua abilità nel mescolare diversi generi musicali, come rap, pop, rock e musica elettronica. Sin da giovane, Caparezza ha dimostrato un interesse per l'arte e la musica, sviluppando una forte passione per il rap e la scrittura dei testi. Ha iniziato la sua carriera nel mondo della musica negli anni '90 e ha continuato a crescere in popolarità grazie alla sua creatività, alle sue liriche taglienti e al suo stile unico. Oltre alla sua carriera musicale, Caparezza è noto per il suo approccio satirico e ironico, spesso esprimendo critiche sociali e politiche attraverso le sue canzoni.</p>
-    <img id="autore"  src="foto/Caparezza.jpg" alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgds.it%2Fvideo%2Fcultura%2F2021%2F05%2F28%2Fspeciale-weekend-caparezza-su-rgs-il-cantautore-cambia-pelle-con-il-suo-nuovo-album-exuvia-e8a87cfa-aaae-441d-83d8-358184724a7b%2F&psig=AOvVaw3dMtuOpcPzT3WAu1jK-RKJ&ust=1684163720385000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCPj07P-M9f4CFQAAAAAdAAAAABAH">
+<p id="section1"></p>
+<p id="descrizioneautore">Caparezza, pseudonimo di Michele Salvemini, è un cantautore italiano nato il 9 ottobre 1973 a Molfetta, in provincia di Bari. Caparezza ha guadagnato notorietà per la sua musica eterogenea e per la sua abilità nel mescolare diversi generi musicali, come rap, pop, rock e musica elettronica. Sin da giovane, Caparezza ha dimostrato un interesse per l'arte e la musica, sviluppando una forte passione per il rap e la scrittura dei testi. Ha iniziato la sua carriera nel mondo della musica negli anni '90 e ha continuato a crescere in popolarità grazie alla sua creatività, alle sue liriche taglienti e al suo stile unico. Oltre alla sua carriera musicale, Caparezza è noto per il suo approccio satirico e ironico, spesso esprimendo critiche sociali e politiche attraverso le sue canzoni.</p>
+<img id="autore"  src="foto/Caparezza.jpg" alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgds.it%2Fvideo%2Fcultura%2F2021%2F05%2F28%2Fspeciale-weekend-caparezza-su-rgs-il-cantautore-cambia-pelle-con-il-suo-nuovo-album-exuvia-e8a87cfa-aaae-441d-83d8-358184724a7b%2F&psig=AOvVaw3dMtuOpcPzT3WAu1jK-RKJ&ust=1684163720385000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCPj07P-M9f4CFQAAAAAdAAAAABAH">
 
 
 </body>

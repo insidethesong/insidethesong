@@ -89,9 +89,33 @@ gtag('config', 'G-VM6XE5F9Z2');
 			
 		</ul>
 		 
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
 
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
 
 <h1 id="titoloalbum">BONOBO POWER</h1>
+<p id="section2"></p>
+
 <p id="descrizionetesto">"Bonobo Power" is a incisive and provocative song by Italian artist Caparezza, released in 2006 on the album "Habemus Capa". This track, characterized by a unique sound and meaningful lyrics, represents an anthem to self-awareness and inner revolution. <br>
     An interesting aspect of "Bonobo Power" is its fusion of different musical genres. Caparezza skillfully blends elements of rap, rock, and electronic music, creating an innovative and engaging sound. This combination of musical styles reflects the versatility and creativity of the artist himself.<br>
     The song tackles themes such as social alienation, conformity, and the search for authentic individual freedom. Caparezza uses the concept of "Bonobo Power" as a metaphor to express the importance of breaking free from societal conditioning and embracing one's uniqueness.<br>
@@ -107,6 +131,8 @@ gtag('config', 'G-VM6XE5F9Z2');
 <p id="ascoltaora">(click on the album and listen now</p>
 
 <H2 id="nomeautore">CAPAREZZA</H2>
+<p id="section1"></p>
+
     <p id="descrizioneautore">Caparezza, pseudonym of Michele Salvemini, is an Italian singer-songwriter born on October 9, 1973, in Molfetta, in the province of Bari. <br>
         Caparezza has gained recognition for his diverse music and his ability to blend different musical genres such as rap, pop, rock, and electronic music. <br>
         From a young age, Caparezza showed an interest in art and music, developing a strong passion for rap and lyric writing. He began his music career in the 1990s and continued to grow in popularity due to his creativity, sharp lyrics, and unique style.<br> 

@@ -90,22 +90,46 @@ gtag('config', 'G-VM6XE5F9Z2');
 		</ul>
 
 
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
 
 <h1 id="titoloalbum">HIT THE ROAD JACK</h1>
+<p id="section2"></p>
+
 <p id="descrizionetesto">"Hit the Road Jack" is an R&B song written by Percy Mayfield and recorded by singer and musician Ray Charles in 1960. The song became one of Charles' most famous hits and is considered a classic of the genre.<br>
 	The song was inspired by a phrase Mayfield heard from a woman during a heated argument: "Why don't you hit the road, Jack?" From there, Mayfield developed the lyrics of the song, which tells the story of a man being kicked out by his partner.<br>
 	"Hit the Road Jack" is characterized by an engaging rhythmic sound and a distinctive horn arrangement. The song combines elements of R&B, blues, and jazz, which contribute to its energy and enduring appeal.<br>
 	Over the years, "Hit the Road Jack" has been covered by numerous artists from different musical genres, showcasing its influence and classic status. Some examples include Helen Reddy's rendition in 1972 and the cover by Pentatonix in 2013.<br>
-
 	</p>	
 <H2 id="nomeautore">RAY CHARLES</H2>
+<p id="section1"></p>
+
 <p id="descrizioneautore"> Ray Charles, born Ray Charles Robinson on September 23, 1930, in Albany, Georgia, was an American singer, pianist, and composer. He is considered one of the most influential musicians of the 20th century and one of the pioneers of soul and rhythm and blues.<br>
 Ray Charles started playing the piano at a young age and developed an extraordinary talent for music. He faced several challenges in his life, including total loss of vision at the age of seven due to glaucoma, but this didn't stop his love for music.<br>
 Ray Charles achieved success in the 1950s with a series of hit singles like "I Got a Woman," "What'd I Say," and "Georgia on My Mind." He signed a record deal with Atlantic Records and achieved considerable commercial success. His powerful voice, virtuosic piano technique, and improvisational skills made him an artist of great emotional impact and engagement.<br>
 Throughout his career, Ray Charles challenged musical boundaries and racial barriers. He pushed the limits of popular music by blending different genres and breaking social conventions of the time, breaking segregation in concert halls and paving the way for other African American musicians.<br>
-Ray Charles was honored with numerous awards and accolades, including 17 Grammy Awards. He continued to record and perform until the final years of his life, becoming a living legend. He passed away on June 10, 2004, in Beverly Hills, California, but his impact on music and his legacy are enduring.<br>
-
-	</p>
+Ray Charles was honored with numerous awards and accolades, including 17 Grammy Awards. He continued to record and perform until the final years of his life, becoming a living legend. He passed away on June 10, 2004, in Beverly Hills, California, but his impact on music and his legacy are enduring.<br></p>
 
 	<p id="ascoltaora">(click on the album and listen now</p>
 

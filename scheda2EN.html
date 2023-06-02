@@ -94,8 +94,32 @@ gtag('config', 'G-VM6XE5F9Z2');
 
 			
 		</ul>
-	
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
 		<h1 id="titoloalbum">MARACAIBO </h1>
+		<p id="section2"></p>
+
         <p id="descrizionetesto">In 1975, Luisa Colombo and David Riondino wrote Maracaibo together, a song about a criminal love story set in Venezuela. The song was well-liked, but the initial lyrics were not accepted by record companies because they were considered uncomfortable. <br>Why was it so uncomfortable?
             <br> Zaza is not only a catchy onomatopoeia but also the name of a dancer who dances at Barracuda, a club that offers her cover because she is also an arms dealer with Cuba. <br> Zazà is in love with Miguel who was actually Fidel in the original text, a clear reference to Fidel Castro, and this is where the problem for record companies arises. This is precisely why the song was only published in 1981.
 			<br>As we move forward with the song, we discover that Zaza feels abandoned by Miguel (Fidel), so she falls into the arms of Pedro, a boy who deals with nitroglycerin trafficking. When Miguel discovers this betrayal, he shoots four gunshots at her, and she escapes into the sea with a boat. Things get worse for Zaza when a storm arrives with strong waves that knock down the mast of her boat, and this is where Zaza falls into the sea where she is ready to be bitten by a shark.
@@ -106,6 +130,8 @@ gtag('config', 'G-VM6XE5F9Z2');
 	<p id="ascoltaora">(click on the album and listen now</p>
         
 	<H2 id="nomeautore">LU COLOMBO</H2>
+	<p id="section1"></p>
+
         <p id="descrizioneautore"> Maria Luisa Colombo, also known as Lu Colombo, is a Milanese singer-songwriter who became famous for her song Maracaibo. She grew up in a family where musical practice was appreciated and encouraged, and her career began in the 1960s as a turninsta and then as a backing vocalist for artists such as Mina and Lucio Battisti.<br>In 1981 she released the single “Maracaibo” and the single “Skipper”. </br> In 1982 she signed a contract with EMI Italia and released the single “Dance All Nite”, with which she participated in Festivalbar in 1983 and won the "Disco per l’estate". “Dance All Nite” together with “Maracaibo” were included in the film “Vacanze di Natale”. In 1984 she participated again in Festivalbar with the song “Aurora” and then slowly went out of the music scene, remaining out of it throughout the 1990s, during which she lived abroad and dedicated herself to mural painting.
 				In 2001 she released the album “Maracaibo 20th Anniversary”, for Self Distribution, and in 2011 she made a reggae version of Maracaibo for its thirtieth anniversary.
             </p>

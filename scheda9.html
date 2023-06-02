@@ -88,11 +88,34 @@
 			<li class="titoli" onclick="this.style.display='block'"><a href="scheda19.html" style="color:rgb(242, 241, 241); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Sultans of swing - Dire Straits</a></li>
 			
 		</ul>
-		            
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>        
 
 
 	
 			<h1 id="titoloalbum">GHETTO GOSPEL</h1>
+			<p id="section2"></p>
 			<p id="descrizionetesto">"Ghetto Gospel" è una celebre canzone del leggendario rapper 2Pac, pubblicata postuma nel 2004 nell'album "Loyal to the Game". Questo brano, caratterizzato da un ritmo coinvolgente e da testi potenti, rappresenta un messaggio di speranza e consapevolezza sociale.<br><br>
 
                 Un aspetto interessante di "Ghetto Gospel" è la sua collaborazione con Elton John. La canzone combina le abilità di 2Pac nel rap e nel storytelling con il talento di Elton John al pianoforte e alla voce, creando un mix unico di generi musicali. Questa collaborazione sorprendente ha attirato l'attenzione del pubblico e ha ampliato l'appeal del brano.<br><br>
@@ -112,6 +135,7 @@
 		  <p id="ascoltaora">(clicca sulla copertina e ascolta ora)</p>
 
 			<H2 id="nomeautore">2PAC</H2>
+			<p id="section1"></p>
        		 <p id="descrizioneautore"> 2Pac, nome d'arte di Tupac Shakur, è stato uno dei rapper più influenti e amati di tutti i tempi. La sua musica e la sua personalità carismatica hanno lasciato un'impronta indelebile nella cultura musicale e nella società stessa.<br><br>
 
                 Un aneddoto affascinante riguarda la vita di 2Pac. Cresciuto in condizioni difficili, ha sperimentato la violenza delle strade e le ingiustizie sociali fin da giovane. Queste esperienze hanno avuto un impatto profondo sulla sua musica, trasmettendo un senso di urgenza e di autenticità nei suoi testi.<br><br>

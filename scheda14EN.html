@@ -90,8 +90,33 @@ gtag('config', 'G-VM6XE5F9Z2');
 		</ul>
 
 
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
 
 <h1 id="titoloalbum">JOLENE </h1>
+<p id="section2"></p>
+
 <p id="descrizionetesto">The song "Jolene" was written by Dolly Parton. The inspiration for the song's lyrics came from a real-life experience of Dolly. During a concert, a young fan asked her for an autograph and confided that her name was Jolene, a name that struck a chord with the singer.<br>
     "Jolene" tells the story of a woman pleading with another woman not to take her man away. The lyrics express the fear of abandonment and the emotional insecurity that can arise in relationships. The song addresses universal themes such as jealousy and unrequited love, eliciting empathy and connection with the audience.<br>
     Many people are curious about who Jolene, the mysterious person mentioned in the song, actually is. Dolly Parton has revealed that Jolene is not a real person but an imaginary character.<br>
@@ -101,6 +126,8 @@ gtag('config', 'G-VM6XE5F9Z2');
  <p id="ascoltaora">(click on the album and listen now</p>
 
 <H2 id="nomeautore">DOLLY PARTON</H2>
+<p id="section1"></p>
+
 <p id="descrizioneautore"> Dolly Parton, born in 1946 in Locust Ridge, Tennessee, is a famous American singer, songwriter, and actress. She is widely recognized as one of the most influential figures in country music history and has gained international popularity.<br>
 
     Growing up in a humble family, Parton began singing at a young age. She was discovered by Porter Wagoner, a country music legend, who invited her to become one of his backup singers and musical partners. This collaboration launched Parton's career and led her to achieve commercial success.<br>

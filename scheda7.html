@@ -89,9 +89,33 @@
 			
 		</ul>
 
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
 
 	
 			<h1 id="titoloalbum">VIA DEL CAMPO</h1>
+			<p id="section2"></p>
 			<p id="descrizionetesto">"Via del Campo" è una celebre canzone del cantautore italiano Fabrizio De André, pubblicata nel 1967 nell'album "Volume 1". Questo brano rappresenta un'icona della musica italiana e racconta storie di persone emarginate e dimenticate.<br><br>
 
                 La canzone prende il nome da una strada di Genova, Via del Campo, che era nota per essere frequentata da prostitute e personaggi al margine della società. Fabrizio De André, attraverso le parole della canzone, dà voce a questi individui, raccontando le loro storie di vita, solitudine e desideri repressi.<br><br>
@@ -111,6 +135,7 @@
 		<p id="ascoltaora">(clicca sulla copertina e ascolta ora)</p>
 
 			<H2 id="nomeautore">FABRIZIO DE ANDRÉ</H2>
+			<p id="section1"></p>
        		 <p id="descrizioneautore">Fabrizio De André è stato uno dei più grandi cantautori italiani, conosciuto per la sua poesia musicale e il suo impegno sociale. La sua carriera si è estesa per oltre tre decenni, lasciando un'impronta indelebile nella musica italiana.<br><br>
 
                 Una delle caratteristiche distintive di Fabrizio De André è stata la sua capacità di affrontare tematiche profonde e impegnate nelle sue canzoni. Attraverso la sua musica, ha denunciato le ingiustizie sociali, ha dato voce ai più deboli e ha esplorato i sentimenti umani più complessi. Le sue canzoni, come "La guerra di Piero" e "Il pescatore", sono diventate degli inni di protesta e riflessione.<br><br>

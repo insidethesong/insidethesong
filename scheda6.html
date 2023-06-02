@@ -89,11 +89,34 @@
 			<li class="titoli" onclick="this.style.display='block'"><a href="scheda19.html" style="color:rgb(242, 241, 241); text-decoration:none;" onmouseover="this.style.color=' rgb(153, 3, 3)'" onmouseout="this.style.color='white'">Sultans of swing - Dire Straits</a></li>
 			
 		</ul>
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
 	
-	
-		
                 
 <h1 id="titoloalbum">ANOTHER BRICK IN THE WALL</h1>
+<p id="section2"></p>
+
 <p id="descrizionetesto">"Another Brick in the Wall" è un celebre brano dei Pink Floyd, pubblicato nel 1979 nell'album "The Wall". Questa canzone è diventata un simbolo di protesta e rivolta giovanile, ma è anche ricca di curiosità e aneddoti interessanti.<br><br>
 
     Una delle curiosità più note riguarda la "Part 2" di "Another Brick in the Wall". Il ritornello "We don't need no education" è stato cantato da un coro di bambini provenienti dalla scuola di Islington Green di Londra. La scelta di includere le voci dei bambini è stata una mossa audace, che ha enfatizzato il tema dell'oppressione dell'istruzione e ha conferito alla canzone un elemento unico e potente.<br><br>
@@ -111,6 +134,8 @@
 <p id="ascoltaora">(clicca sulla copertina e ascolta ora)</p>
 
 <H2 id="nomeautore">PINK FLOYD</H2>
+<p id="section1"></p>
+
     <p id="descrizioneautore">I Pink Floyd sono una band britannica leggendaria che ha lasciato un'impronta indelebile nella storia della musica, in particolare nel genere del rock progressivo. La band si è formata nel 1965 a Londra ed è stata composta da membri eccezionalmente talentuosi e visionari.<br><br>
 
         Uno degli aspetti distintivi dei Pink Floyd è stata la loro attitudine all'innovazione e alla sperimentazione musicale. Hanno creato composizioni complesse e concettuali, amalgamando elementi di rock, psichedelia e elettronica per creare un suono unico e riconoscibile.<br><br>

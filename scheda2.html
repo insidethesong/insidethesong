@@ -90,9 +90,33 @@
 
 			
 		</ul>
-		            
+		  <div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>          
 			
 		<h1 id="titoloalbum">MARACAIBO </h1>
+		<p id="section2"></p>
+
         <p id="descrizionetesto">Nel 1975 Luisa Colombo insieme a David Riondino scrivono a quattro mani Maracaibo, una canzone che parla di una storia d’amore criminale ambientata in Venezuela. <br> Il brano piace molto ma il testo iniziale non viene accettato dalle case discografiche perché reputato scomodo. <br> Perché era così scomodo?  
             <br>Zazà oltre ad essere un’orecchiabile onomatopea è anche il nome di una ballerina che balla al Barracuda, un locale che le offre una copertura perché oltre che ballerina, è anche una trafficante di armi con Cuba. <br> Zazà è innamorata di Miguel che in realtà nel testo originale era Fidel, un chiaro riferimento a Fidel Castro ed è qui che nasce il problema per le case discografiche. È proprio per questo che la canzone fu pubblicata solamente nel 1981.
            <br>Andando avanti con la canzone scopriamo che Zazà si sente abbandonata da Miguel (Fidel), per questo cade tra le braccia di Pedro, un ragazzo che fa il trafficante di nitroglicerina. Quando Miguel scopre di questo tradimento spara quattro colpi di pistola a Zazà, che scappa in mare con una barca. Le cose per Zazà peggiorano, arriva una tempesta con mare forza nove che abbatte l’albero della sua barca ed è a questo punto che Zazà cade in mare dove è pronto a morderla un pescecane. 
@@ -103,6 +127,8 @@
    <p id="ascoltaora">(clicca sulla copertina e ascolta ora)</p>
         
 	<H2 id="nomeautore">LU COLOMBO</H2>
+	<p id="section1"></p>
+
         <p id="descrizioneautore"> Maria Luisa Colombo, in arte Lu Colombo, è una cantautrice milanese divenuta famosa per il suo brano Maracaibo. Cresciuta in una famiglia dove la pratica musicale era apprezzata e incoraggiata la sua carriera è iniziata negli anni ’60 come turninsta e poi come corista per artisti come Mina e Lucio Battisti. <br>Nel 1981 ha pubblicato il singolo “Maracaibo” e il singolo “Skipper”. </br> Nel 1982 ha firmato un contratto con l’etichetta EMI Italia e ha pubblicato il singolo “Dance All Nite”, con il quale nel 1983 ha partecipato al Festivalbar e ha vinto il Disco per l’estate. “Dance All Nite” insieme a “Maracaibo” sono stati inclusi nel film “Vacanze di Natale”. Nel 1984 ha partecipato di nuovo al Festivalbar con il brano “Aurora” per poi uscire lentamente dalla scena musicale, rimanendone fuori per tutti gli anni ’90, durante i quali ha vissuto all’estero e si è dedicata alla pittura murale. 
             Nel 2001 ha pubblicato l’album “Maracaibo 20th Anniversary”, per Self Distribuzione, e nel 2011 ha realizzato una versione reggae di Maracaibo per il trentesimo anniversario.
             </p>

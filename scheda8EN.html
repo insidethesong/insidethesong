@@ -90,9 +90,33 @@
 			
 		</ul>
 		        
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
 
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
 	
 			<h1 id="titoloalbum">L'ISOLA CHE NON C'É </h1>
+			<p id="section2"></p>
+
 			<p id="descrizionetesto">"L'isola che non c'è" by Edoardo Bennato: an anthem to imagination with surprising inspiration.<br>
                 "L'isola che non c'è" is a famous song by Edoardo Bennato, released in 1974. In addition to being loved for its catchy melody, this song is surrounded by interesting anecdotes and curiosities.<br>
                 One fascinating anecdote revolves around the inspiration behind the song. It is said that Edoardo Bennato got the idea for "L'isola che non c'è" after reading the famous children's novel "Peter Pan" by J.M. Barrie. His imagination was captured by the idea of a fantastic island, a place where dreams come true and where freedom knows no bounds.<br>
@@ -109,6 +133,8 @@
 		<p id="ascoltaora">(click on the album and listen now</p>
 
 			<H2 id="nomeautore">EDOARDO BENNATO</H2>
+			<p id="section1"></p>
+
        		 <p id="descrizioneautore"> Edoardo Bennato: an eclectic and provocative artist with a passion for music and social criticism.<br>
                 Edoardo Bennato is an Italian singer-songwriter with a highly successful career that spans across different musical genres. Known for his eclectic and provocative style, Bennato has always used music as a tool to express his social criticism and ideas.<br>
                 One interesting curiosity about Edoardo Bennato is that his first major hit, "La fata", was initially intended to be a children's song. However, the song captured the attention of a wider audience and launched Bennato's career as a successful singer-songwriter. This episode demonstrates his ability to create catchy melodies and intriguing lyrics that can be appreciated by people of all ages.<br>

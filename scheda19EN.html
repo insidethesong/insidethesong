@@ -89,9 +89,34 @@ gtag('config', 'G-VM6XE5F9Z2');
 
 			
 		</ul>
-		            
+		<div class="container">	
+			<img class="icona1" src="foto/brano.jpg" alt="icona per andare alla scheda del brano" id="image2" onclick="scrollToSection('section2')" onmouseover="zoomIn('image2')" onmouseout="zoomOut('image2')">
+			<img class="icona1" src="foto/autore.jpg" alt="icona per andare all'autore" id="image1" onclick="scrollToSection('section1')" onmouseover="zoomIn('image1')" onmouseout="zoomOut('image1')">
+		  
+		  </div>
+
+
+		<script>
+			function scrollToSection(sectionId) {
+			  const section = document.getElementById(sectionId);
+			  section.scrollIntoView({ behavior: 'smooth' });
+			}
+		  
+			function zoomIn(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1.2)';
+			}
+		  
+			function zoomOut(imageId) {
+			  const image = document.getElementById(imageId);
+			  image.style.transform = 'scale(1)';
+			}
+		  </script>
+				           
 
 		<h1 id="titoloalbum">SULTANS OF SWING</h1>
+		<p id="section2"></p>
+
         <p id="descrizionetesto"> "Sultans of Swing" is the debut single of the British band Dire Straits, released in 1978. It has become one of their most iconic and successful songs.<br>
 			
 			The song was written by the band's leader, Mark Knopfler. It is said to have been inspired by Knopfler's experience while performing in a small London pub, where he noticed a group of jazz musicians playing with great passion despite the lack of an enthusiastic audience.<br>
@@ -108,6 +133,8 @@ gtag('config', 'G-VM6XE5F9Z2');
 			
 		</p>	
         <H2 id="nomeautore">DIRE STRAITS</H2>
+		<p id="section1"></p>
+
         <p id="descrizioneautore"> Dire Straits were a British rock band that achieved great success in the '70s and '80s. The band was founded in 1977 in London by Mark Knopfler (guitar and vocals), David Knopfler (guitar), John Illsley (bass), and Pick Withers (drums).<br>
 
 			Mark Knopfler was the main songwriter and leader of the band. Before forming Dire Straits, he worked as a session musician and high school teacher. Their distinctive sound was characterized by Knopfler's guitar, with its fingerpicking style and melodic touch.<br>
