@@ -301,3 +301,246 @@
   color: white;
   font-size: 25px;
 }
+
+
+.docu{
+position: relative;
+color:#fafafa;
+font-size: 17px;
+top: 205px;
+left: 15px;
+margin-right: 10px;
+max-width: 90%;
+}
+
+.docutitolo{
+position: relative;
+color: #fafafa;
+font-size: 25px;
+top: 210px;
+left: 15px;
+max-width: 90%;
+
+}
+
+#albero{
+  position:relative;
+  max-width: 80%;
+  max-height: 25%;
+  top: 230px;
+  left: 90px;
+  
+}
+
+#wtitolo{
+position: relative;
+color: #fafafa;
+font-size: 25px;
+top: 215px;
+left: 15px;
+max-width: 90%;
+text-align: center;
+
+}
+#w1{
+position: relative;
+top: 200px;
+left: 150px;
+max-width: 80%;
+max-height: 25%;
+}
+
+
+#w2{
+  position: relative;
+  top: 250px;
+  left: 90px;
+  max-width: 40%;
+  max-height: 30%;
+  }
+  
+  #w3{
+    position: relative;
+    top: 250px;
+    left: 170px;
+    max-width: 40%;
+    max-height: 30%;
+    }
+   
+    #w4{
+      position: relative;
+      top: 300px;
+      left: 90px;
+      max-width: 40%;
+      max-height: 30%;
+      }
+      
+      #w5{
+        position: relative;
+        top: 300px;
+        left: 170px;
+        max-width: 40%;
+        max-height: 30%;
+        }
+        
+  
+        #w6{
+          position: relative;
+          top: 350px;
+          left: 90px;
+          max-width: 40%;
+          max-height: 30%;
+          }
+          
+          #w7{
+              position: relative;
+              top: 350px;
+              left: 170px;
+              max-width: 40%;
+              max-height: 30%;
+            }
+            
+            #w8{
+                position: relative;
+                top: 400px;
+                left: 90px;
+                max-width: 40%;
+                max-height: 30%;
+              }
+              
+              #w9{
+                  position: relative;
+                  top: 400px;
+                  left: 170px;
+                  max-width: 40%;
+                  max-height: 30%;
+                }
+          
+
+#lf{
+position:relative;
+top: 500px;
+color: #fafafa;
+font-size: 25px;
+left: 15px;
+max-width: 90%;
+}
+
+#lftext{
+position: relative;
+top: 520px;
+color:#fafafa;
+font-size: 17px;
+left: 15px;
+margin-right: 10px;
+max-width: 90%;
+}
+
+#lstitolo{
+position: relative;
+color: #fafafa;
+font-size: 25px;
+top: 550px;
+left: 15px;
+max-width: 90%;
+
+}
+
+.lstext{
+position: relative;
+top: 570px;
+color:#fafafa;
+font-size: 17px;
+left: 15px;
+margin-right: 10px;
+max-width: 90%;
+}
+
+#titolocom{
+position:relative;
+top: 610px;
+color: #fafafa;
+font-size: 25px;
+left: 15px;
+max-width: 90%;
+}
+
+#background{
+position:relative;
+top: 615px;
+color: #fafafa;
+font-size: 25px;
+left: 15px;
+max-width: 90%;
+}
+.btext{
+position: relative;
+top: 635px;
+color:#fafafa;
+font-size: 17px;
+left: 15px;
+margin-right: 10px;
+max-width: 90%;
+}
+
+#oc{
+position:relative;
+top: 600px;
+color: #fafafa;
+font-size: 25px;
+left: 15px;
+max-width: 90%;
+}
+
+#octext{
+  position: relative;
+  top: 620px;
+  color:#fafafa;
+  font-size: 17px;
+  left: 15px;
+  margin-right: 10px;
+  max-width: 90%;
+}
+
+
+.titf{
+position:relative;
+top: 670px;
+color: #fafafa;
+font-size: 25px;
+left: 15px;
+max-width: 90%;
+}
+
+.textf{
+position: relative;
+top: 675px;
+color:#fafafa;
+font-size: 17px;
+left: 15px;
+margin-right: 10px;
+max-width: 90%;
+}
+
+
+#insta{
+position: relative;
+top: 680px;
+max-width: 40%;
+max-height: 40%;
+}
+
+#google{
+position: relative;
+top: 680px;
+max-width: 50%;
+max-height: 50%;
+}
+
+#telegram{
+  position: relative;
+  top: 690px;
+  max-width: 30%;
+  max-height: 30%;
+left:350px;
+}
