@@ -380,7 +380,15 @@ max-height: 25%;
       max-height: 30%;
       }
       
-      #w5{
+      #w44{
+      position: relative;
+      top: 300px;
+      left: 90px;
+      max-width: 40%;
+      max-height: 30%;
+      }
+     
+       #w5{
         position: relative;
         top: 300px;
         left: 170px;
