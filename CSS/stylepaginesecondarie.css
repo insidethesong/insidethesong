@@ -339,11 +339,12 @@ max-width: 90%;
 
 #wtitolo{
   position: relative;
-  color: #fafafa;
-  font-size: 25px;
-  top: 210px;
-  left: 15px;
-  max-width: 90%;
+color: #fafafa;
+font-size: 25px;
+top: 215px;
+left: 15px;
+max-width: 90%;
+text-align: center;
 
 }
 #w1{
