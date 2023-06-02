@@ -2,6 +2,10 @@
 
 /*SOLO PER LA PARTE FISSA*/
 
+html {
+  zoom: 0.78;
+
+}
 
   body{ 
     position:relative;
