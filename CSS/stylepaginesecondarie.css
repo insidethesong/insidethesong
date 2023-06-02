@@ -546,8 +546,13 @@ max-height: 50%;
 #telegram{
   position: relative;
   top: 690px;
+  left:350px;
   max-width: 30%;
   max-height: 30%;
-left:350px;
 }
-
+#meta{
+position: relative;
+top: 690px;
+max-width: 30%;
+max-height: 30%;
+}  
