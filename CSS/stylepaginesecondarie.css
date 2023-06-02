@@ -477,7 +477,7 @@ position: relative;
   color: #fafafa;
   font-size: 25px;
   left: 309px;
- 
+}
 #titw2 {
   position: absolute;
   top: 1559px;
@@ -570,7 +570,6 @@ font-size: 25px;
 top: 550px;
 left: 15px;
 max-width: 90%;
-
 }
 
 .lstext{
@@ -678,9 +677,9 @@ max-height: 50%;
   max-height: 30%;
 }
 #meta{
-position: relative;
+  position: relative;
   top: 454px;
-left: 207px;
+  left: 207px;
   max-width: 40%;
   max-height: 40%;
-}  
+}
