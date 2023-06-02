@@ -565,8 +565,8 @@ max-height: 50%;
 }
 #meta{
 position: relative;
-top: 360px;
-left:245px;
-max-width: 30%;
-max-height: 30%;
+  top: 454px;
+left: 207px;
+  max-width: 40%;
+  max-height: 40%;
 }  
