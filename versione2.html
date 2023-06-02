@@ -6,7 +6,6 @@
 				<meta charset="utf-8"/>   
 				<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">  
 				<link rel="stylesheet" type="text/css" href="CSS/styleversione2.css"/>
-				<script src="javascript/barra-ricerca.js"></script>          
 				<!-- Google tag (gtag.js) -->
 				<script async src="https://www.googletagmanager.com/gtag/js?id=G-VM6XE5F9Z2"></script>
 				<script>
@@ -20,12 +19,10 @@
 		<body onload="document.getElementById('popup').style.display='block'">
 
 			<div id="popup" class="popup">
-				<div id="ops" class="content"> Oooops la pagina che cerchi è al momento in lavorazione </div>
+				<div id="ops" class="content"> Oooops la pagina che cerchi è al momento in lavorazione, torna tra: </div>
+				<div id="countdown"></div>				
+			<script src="javascript/timer.js"></script>          
+
 			</div>
-
-		<body onload="startTimer()">
-
-			<div id="timer"></div>
-
-		</body>
+		</body>	
 </html>
