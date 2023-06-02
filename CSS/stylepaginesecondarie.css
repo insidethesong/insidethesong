@@ -1,3 +1,11 @@
+#ops{
+  position: relative;
+  font-size: xx-large;
+  text-align: center;
+  color:white;
+  top: 500px;
+  margin:0 auto;
+}
 #giacomo {
   position: absolute;
   left: 35px;
@@ -107,256 +115,189 @@
     border-radius:0px 0px 25px  0px;
 }
 
-
-
-
-.docu{
-position: relative;
-color:#fafafa;
-font-size: 17px;
-top: 205px;
-left: 15px;
-margin-right: 10px;
-max-width: 90%;
+#scriptdocumenti{
+  position:absolute;
+  color:rgb(255, 255, 255);
+  right:30px;
+  left: 150px;
+  top:220px;
+  font-size:15px;
+  text-align: right;
+  padding-left: 300px;
+  padding-right: 10px;
+  width: 200px;
+  height:200px;
 }
-
-.docutitolo{
-position: relative;
-color: #fafafa;
-font-size: 25px;
-top: 210px;
-left: 15px;
-max-width: 90%;
-
-}
-
-#albero{
-  position:relative;
-  max-width: 80%;
-  max-height: 25%;
-  top: 230px;
-  left: 90px;
+#foto1 {
+  position: absolute;
+  top: 220px;
+  left: 35px;
+  height: 200px;
+  width: 250px;
+  border: solid 2px white;
+  border-radius:0px 0px 25px  0px;
+  margin-left: 3% auto;
+  margin-right: 3% auto;
   
 }
 
-#wtitolo{
-position: relative;
-color: #fafafa;
-font-size: 25px;
-top: 215px;
-left: 15px;
-max-width: 90%;
 
-
-}
-#w1{
-position: relative;
-top: 200px;
-left: 7px;
-max-width: 80%;
-max-height: 25%;
-}
-
-
-#w2{
-position: relative;
-top: 352px;
-left: 90px;
-max-width: 40%;
-max-height: 30%;
-  }
+#descrizione1{
+  display: block;
+  position:absolute;
+  color:rgb(255, 255, 255);
+  text-align: left;
+  top:220px;
+  left:355px;
+  line-height: 1.5em;
+  max-width: 650px;
+  overflow-wrap: break-word;
+  margin-left: 3% auto;
+  margin-right: 8% auto;
   
-  #w3{
- position: relative;
- top: 307px;
- left: 17px;
- max-width: 40%;
- max-height: 30%;
-    }
-   
-    #w4{
-   position: relative;
-    top: 308px;
-    left: 166px;
-      max-width: 40%;
-      max-height: 30%;
-      }
-      
-      #w5{
-    position: relative;
-    top: 323px;
-    left: 15px;
-    max-width: 40%;
-    max-height: 30%;
-        }
-        
+  margin-left: 3% auto;
+  margin-right: 3% auto;
   
-        #w6{
-        position: relative;
-        top: 314px;
-        left: 163px;
-        max-width: 40%;
-        max-height: 30%;
-          }
-          
-          #w7{
-       position: relative;
-       top: 347px;
-       left: 15px;
-       max-width: 40%;
-        max-height: 30%;
-            }
-            
-            #w8{
-      position: relative;
-      top: 346px;
-      left: 162px;
-      max-width: 40%;
-      max-height: 30%;
-              }
-              
-              #w9{    
-       position: relative;
-       top: 400px;
-       left: 318px;
-       max-width: 40%;
-       max-height: 30%;
-                }
-          
-
-#lf{
-position:relative;
-top: 500px;
-color: #fafafa;
-font-size: 25px;
-left: 15px;
-max-width: 90%;
 }
 
-#lftext{
-position: relative;
-top: 520px;
-color:#fafafa;
-font-size: 17px;
-left: 15px;
-margin-right: 10px;
-max-width: 90%;
+
+#foto2{
+  position: absolute;
+  top: 520px;
+  right:  35px;
+  height: 200px;
+  width: 250px;
+  border: solid 2px white;
+  border-radius:0px 0px 25px  0px;
+  margin-left: 3% auto;
+  margin-right: 3% auto;
+  
+  margin-left: 3% auto;
+  margin-right: 3% auto;
 }
 
-#lstitolo{
-position: relative;
-color: #fafafa;
-font-size: 25px;
-top: 550px;
-left: 15px;
-max-width: 90%;
+#descrizione2{
+  display: block;
+  position:absolute;
+  color:rgb(255, 255, 255);
+  text-align: right;
+  top:520px;
+  right: 355px;
+  line-height: 1.5em;
+  max-width: 650px;
+  overflow-wrap: break-word;
+  margin-left: 3% auto;
+  margin-right: 8% auto;
+  
 
+  
 }
 
-.lstext{
-position: relative;
-top: 570px;
-color:#fafafa;
-font-size: 17px;
-left: 15px;
-margin-right: 10px;
-max-width: 90%;
+#foto3{
+  position: absolute;
+  top: 820px;
+  left: 35px;
+  height: 200px;
+  width: 250px;
+  border: solid 2px white;
+  border-radius:0px 0px 25px  0px;
+  margin-left: 3% auto;
+  margin-right: 3% auto;
+  
+  
 }
 
-#titolocom{
-position:relative;
-top: 610px;
-color: #fafafa;
-font-size: 25px;
-left: 15px;
-max-width: 90%;
+#descrizione3{
+  display: block;
+  position:absolute;
+  color:rgb(255, 255, 255);
+  text-align: left;
+  top:820px;
+  left:355px;
+  line-height: 1.5em;
+  max-width: 650px;
+  overflow-wrap: break-word;
+  margin-left: 3% auto;
+  margin-right: 8% auto;
 }
 
-#background{
-position:relative;
-top: 615px;
-color: #fafafa;
-font-size: 25px;
-left: 15px;
-max-width: 90%;
-}
-.btext{
-position: relative;
-top: 635px;
-color:#fafafa;
-font-size: 17px;
-left: 15px;
-margin-right: 10px;
-max-width: 90%;
+#foto4{
+  position: absolute;
+  top: 1120px;
+  right:  35px;
+  height: 200px;
+  width: 250px;
+  border: solid 2px white;
+  border-radius:0px 0px 25px  0px;
+  border-image-slice: 1;
+  margin-left: 3% auto;
+  margin-right: 3% auto;
 }
 
-#oc{
-position:relative;
-top: 600px;
-color: #fafafa;
-font-size: 25px;
-left: 15px;
-max-width: 90%;
+#descrizione4{
+  display: block;
+  position:absolute;
+  color:rgb(255, 255, 255);
+  text-align: right;
+  top:1120px;
+  right:355px;
+  line-height: 1.5em;
+  max-width: 650px;
+  overflow-wrap: break-word;
+  margin-left: 3% auto;
+  margin-right: 8% auto;
 }
 
-#octext{
+
+
+
+
+.linea-separatrice {
   position: relative;
-  top: 620px;
-  color:#fafafa;
-  font-size: 17px;
-  left: 15px;
-  margin-right: 10px;
-  max-width: 90%;
+  border-top: 2px solid white;
+  width: 90%;
+  margin: 0 auto;
+  top: 95px;
 }
 
-
-.titf{
-position:relative;
-top: 670px;
-color: #fafafa;
-font-size: 25px;
-left: 15px;
-max-width: 90%;
+#consigliati {
+  position: absolute;
+  top: 0px;
+  left: 53px;
+  color: white;
+  font-size: 30px;
 }
 
-.textf{
-position: relative;
-top: 675px;
-color:#fafafa;
-font-size: 17px;
-left: 15px;
-margin-right: 10px;
-max-width: 90%;
-}
-
-
-#insta{
-position: relative;
-top: 680px;
-max-width: 40%;
-max-height: 40%;
-}
-
-#google{
-position: relative;
-top: 680px;
-max-width: 50%;
-max-height: 50%;
-}
-
-#telegram{
+#collaborazioni {
   position: relative;
-  top: 690px;
-  max-width: 30%;
-  max-height: 30%;
-left: 100px;
+  top:810px;
+
 }
 
-#meta{
-  position: relative;
-  top: 690px;
-  max-width: 40%;
-  max-height: 40%;
-left: 130px;
+#logopp {
+  position: absolute;
+  top: -570px;
+  left: -650px;
+  scale: calc(0.12);
 }
 
+#logopp:hover {
+
+    border: 10px solid rgb(153, 3, 3);
+    transform: scale(1.);
+}
+
+
+
+#collaborazioni p {
+    position: absolute;
+  
+}
+
+#scriptcollab {
+  position: absolute;
+  top: 247px;
+  left: 261px;
+  color: white;
+  font-size: 25px;
+}
