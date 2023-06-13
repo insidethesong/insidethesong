@@ -303,6 +303,16 @@ footer {
     font-size: 12px;
   }
    
-    
+  #none{
+    display: none;
+
+  }  
+  #avviso{
+    position:relative;
+    text-align: center;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+  }
   }
   

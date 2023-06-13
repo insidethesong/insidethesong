@@ -420,3 +420,6 @@ position: relative;
     max-width: 40%;
     max-height: 40%;
 }
+#avviso{
+  display: none;
+}
