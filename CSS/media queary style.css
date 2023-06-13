@@ -150,50 +150,50 @@
   
     #giacomo {
       position: absolute;
-      left: 3%;
-      top: 20%;
-      font-size: 12px; 
-    }
+      left: 40%;
+      top: 166px;
+      font-size: 18px;
+  }
   
-    #descrizionegia {
-      position: absolute;
-      left: 3%;
-      top: 23%;
-      font-size: 12px; 
-    }
-  
-  
-    #francesca {
-      position: absolute;
-      left: 3%;
-      top: 30%;
-      color: #ffffff;
-      font-size: 12px; 
-    }
-  
-    #descrizionefra {
-      position: absolute;
-      left: 3%;
-      top: 33%;
-      color: #ffffff;
-      font-size: 12px; 
-    }
+  #descrizionegia {
+    position: absolute;
+    left: 40%;
+    top: 197px;
+    font-size: 18px;
+}
   
   
-    #contattaci {
-      position: absolute;
-      left: 3%;
-      top: 40%;
-      font-size: 15px;
-    }
+#francesca {
+  position: absolute;
+  left: 40%;
+  top: 268px;
+  color: #ffffff;
+  font-size: 18px;
+}
+  
+#descrizionefra {
+  position: absolute;
+  left: 40%;
+  top: 300px;
+  color: #ffffff;
+  font-size: 18px;
+}
   
   
-    #contattaci2 {
-      position: absolute;
-      left: 3%;
-      top: 45%;
-      font-size: 15px;
-    }
+#contattaci {
+  position: absolute;
+  left: 3%;
+  top: 450px;
+  font-size: 18px;
+}
+  
+#contattaci2 {
+  position: absolute;
+  left: 3%;
+  top: 488px;
+  font-size: 18px;
+}
+
     #tendenza {
       position: relative;
       font-size: 25px;
@@ -223,9 +223,35 @@ footer {
   z-index: 1;
 }
 
- 
-    
-    
+#logoinsta {
+  position: absolute;
+  scale: calc(0.030);
+  top: -164px;
+  right: -388px
+} 
+
+#nomeinstagram {
+  position: relative;
+  right: -80px;
+  top: 620px;
+  color: #ffffff;
+  font-size: 18px;
+}    
+
+#logotw {
+  position: absolute;
+  scale: calc(0.090);
+  top: 466px;
+  right: 154px;
+}
+
+#nometwitter {
+  position: relative;
+  right: 68px;
+  top: 710px;
+  color: #ffffff;
+  font-size: 18px;
+}
   
   #cont {
     top: 15%;
@@ -239,32 +265,35 @@ footer {
       position: relative;
       top: 55%;
   }
-  #consigliati{
-      top: 0%;
-      left: 5%;
-      font-size: 12px;
-  }
+  #consigliati {
+    position: relative;
+    top: 175px;
+    left: 5%;
+    font-size: 18px;
+}
   
   .linea-separatrice {
     position: relative;
     border-top: 2px solid white;
     width: 90%;
     margin: 0 auto;
-    top: 40px;
-  }
-  #scriptcollab {
-    position: absolute;
-    top: 60px;
-    left: 60%;
-    color: white;
-    font-size: 12px;
-  }
-  #logopp {
-    position: absolute;
-    top: -681px;
-    left: -724px;
-    scale: calc(0.07);
-  }
+    top: 167px;
+}
+
+#scriptcollab {
+  position: absolute;
+  top: 274px;
+  left: 33%;
+  color: white;
+  font-size: 18px;
+}
+
+#logopp {
+  position: absolute;
+  top: -510px;
+  left: -724px;
+  scale: calc(0.07);
+}
   
   #scriptcollab {
     position: absolute;
