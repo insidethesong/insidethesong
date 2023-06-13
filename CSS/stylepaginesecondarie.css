@@ -685,13 +685,13 @@ max-height: 50%;
 }
 #fra{
   position: relative;
-  top: -154px;
-  left: -309px;
+  top: -900px;
+  left: -315px;
   scale: 0.15;
 }
 #gia{
-  position:relative;
-  top:290px;
-  left:5px;
-  scale:0.15
+  position: relative;
+  top: -170px;
+  left: -315px;
+  scale: 0.15;
 }
