@@ -2,7 +2,7 @@
 @media (max-width: 720px) {
     body {
       width: auto;
-      height: auto;
+      height: 1200px;
       margin: 0;
       overflow-y: scroll;
     }
@@ -219,7 +219,7 @@
 }
 footer {
   font-size: 12px;
-  top: 55%;
+  top: 608px;
   z-index: 1;
 }
 
