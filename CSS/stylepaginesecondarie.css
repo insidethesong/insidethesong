@@ -683,3 +683,15 @@ max-height: 50%;
   max-width: 40%;
   max-height: 40%;
 }
+#fra{
+  position: relative;
+  top: -154px;
+  left: -309px;
+  scale: 0.15;
+}
+#gia{
+  position:relative;
+  top:290px;
+  left:5px;
+  scale:0.15
+}
