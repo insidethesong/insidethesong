@@ -254,3 +254,10 @@ a:hover {
   position:relative;
   top:2600px;
 }
+
+#ascoltaora {
+  position: absolute;
+  top: 1498px;
+  left: 35px;
+  color: white;
+}
