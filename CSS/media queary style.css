@@ -247,25 +247,26 @@ footer {
   right: -388px
 } 
 
-#nomeinstagram {
-  position: relative;
-  right: -80px;
-  top: 620px;
-  color: #ffffff;
-  font-size: 18px;
-}    
+
+  #nomeinstagram {
+    position: relative;
+    right: -80px;
+    top: -1184px;
+    color: #ffffff;
+    font-size: 18px;
+}
 
 #logotw {
   position: absolute;
   scale: calc(0.090);
-  top: 466px;
+  top: 462px;
   right: 154px;
 }
 
 #nometwitter {
   position: relative;
   right: 68px;
-  top: 710px;
+  top: -1101px;
   color: #ffffff;
   font-size: 18px;
 }
@@ -278,10 +279,10 @@ footer {
     position: relative;
   
   }
-     #collaborazioni {
-      position: relative;
-      top: 55%;
-  }
+  #collaborazioni {
+    position: relative;
+    top: -1214px;
+}
   #consigliati {
     position: relative;
     top: 175px;
@@ -312,14 +313,7 @@ footer {
   scale: calc(0.07);
 }
   
-  #scriptcollab {
-    position: absolute;
-    top: 119px;
-    left: 38%;
-    color: white;
-    font-size: 12px;
-  }
-   
+
   #none{
     display: none;
 
