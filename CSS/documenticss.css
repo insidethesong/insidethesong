@@ -103,7 +103,6 @@ font-size: 25px;
 top: 210px;
 left: 15px;
 max-width: 90%;
-
 }
 
 #albero{
@@ -112,8 +111,7 @@ max-width: 90%;
   max-height: 25%;
   top: 230px;
   left: 90px;
-  
-}
+  }
 
 #wtitolo{
   position: relative;
@@ -170,8 +168,7 @@ max-width: 90%;
         right: 22.5%;
         max-width: 40%;
         max-height: 30%;
-    }
-        }
+       }
         
   
         #w6{
@@ -268,6 +265,7 @@ max-width: 90%;
   color: #fafafa;
   font-size: 20px;
   left: 68%;
+  }
 
 #titw9 {
   position: absolute;
