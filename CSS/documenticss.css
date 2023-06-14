@@ -125,7 +125,7 @@ max-width: 90%;
 }
 #w1{
   position: relative;
-  top: 1%;
+  top: 150px;
   left: 2%;
   max-width: 60%;
   max-height: 25%
@@ -134,7 +134,7 @@ max-width: 90%;
 
 #w2{
   position: relative;
-  top: 3%;
+  top: 212px;
   left: 3%;
   max-width: 40%;
   max-height: 30%;
@@ -142,7 +142,7 @@ max-width: 90%;
   
   #w3{
     position: relative;
-    top: 1%;
+    top: 50px;
     left: 9%;
     max-width: 40%;
     max-height: 30%;
@@ -150,88 +150,89 @@ max-width: 90%;
    
     #w4{
       position: relative;
-      top: 3.4%;
+      top: 290px;
       left: 24%;
       max-width: 40%;
       max-height: 30%;
       }
       
       #w44{
-     position: absolute;
-    top: 31.71%;
-    color: #fafafa;
-    font-size: 20px;
-    left: 64.59%;
+        position: relative;
+        top: 280px;
+        color: #fafafa;
+        font-size: 20px;
+        left: 64.59%;
       }
      
        #w5{
-       position: relative;
-    top: 300px;
-    left: 91px;
-    max-width: 40%;
-    max-height: 30%;
+        position: relative;
+        top: 145px;
+        right: 22.5%;
+        max-width: 40%;
+        max-height: 30%;
+    }
         }
         
   
         #w6{
           position: relative;
-          top: 8.4%;
-          left: 16%;
+          top: 343px;
+          left: 9.5%;
           max-width: 40%;
           max-height: 30%;
           }
           
           #w7{
             position: relative;
-            top: 3.64%;
-            left: 9%;
+            top: 343px;
+            left: 16%;
             max-width: 40%;
             max-height: 30%;
             }
             
             #w8{
-  position: relative;
-    top: 9%;
-    left: 16%;
-    max-width: 40%;
-    max-height: 30%;
+              position: relative;
+              top: 417px;
+              left: 9.5%;
+              max-width: 40%;
+              max-height: 30%;
               }
               
               #w9{
-    position: relative;
-    top: 416px;
-    left: 92px;
-    max-width: 40%;
-    max-height: 30%;
+                position: relative;
+                top: 419px;
+                left: 16%;
+                max-width: 40%;
+                max-height: 30%;
                 }
           
 
 #titw1 {
   position: absolute;
-  top: 16.5%;
+  top: 1705px;
   color: #fafafa;
   font-size: 20px;
   left: 25%;
 }
 #titw2 {
   position: absolute;
-  top: 16.5%;
+  top: 1574px;
   color: #fafafa;
   font-size: 20px;
-  left: 68%;
+  left: 68.3%;
 }
 
 #titw3 {
   position: absolute;
-    top: 24%;
-    color: #fafafa;
-    font-size: 20px;
-    left: 21%;
+  top: 2362px;
+  color: #fafafa;
+  font-size: 20px;
+  left: 21%;
 }
 
 #titw4 {
   position: absolute;
-  top: 24%;
+  top: 2356px;
   color: #fafafa;
   font-size: 20px;
   left: 761px;
@@ -239,42 +240,41 @@ max-width: 90%;
 
 #titw5 {
   position: absolute;
-  top: 30.5%;
+  top: 2942px;
   color: #fafafa;
   font-size: 20px;
-  left: 19%;
+  left: 20%;
 }
 
 #titw6 {
-  position: relative;
-    top: -6.56%;
-    color: #fafafa;
-    font-size: 20px;
-    left: 65%;
+  position: absolute;
+  top: 3622px;
+  color: #fafafa;
+  font-size: 20px;
+  left: 18.5%;
 }
 
 #titw7 {
   position: absolute;
-    top: 41.7%;
-    color: #fafafa;
-    font-size: 20px;
-    left: 70.5%;
+  top: 4184px;
+  color: #fafafa;
+  font-size: 20px;
+  left: 23%;
 }
 
 #titw8 {
   position: absolute;
-  top: 36.3%;
+  top: 3623px;
   color: #fafafa;
   font-size: 20px;
-  left: 21%;
-}
+  left: 68%;
 
 #titw9 {
   position: absolute;
-  top: 41.7%;
+  top: 4183px;
   color: #fafafa;
   font-size: 20px;
-  left: 20%;
+  left: 69%;
 }
 
 
@@ -414,8 +414,8 @@ position: relative;
     max-height: 30%;
 }
 #meta{
-position: relative;
-    top: 3.56%;
+  position: relative;
+    top: 417px;
     left: 21%;
     max-width: 40%;
     max-height: 40%;
