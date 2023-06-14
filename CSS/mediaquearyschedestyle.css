@@ -38,28 +38,29 @@ body {
     border: 2px solid white;
 }
   input[type="text"] {
-    left: 14%;
-    top: 146px;
+    top: 94px;
     width: 70%;
     height: -13px;
-    font-size:11px;
-    padding:8px;
-    border:1px solid rgb(246, 246, 246);
+    margin: 0 auto;
+    font-size: 11px;
+    padding: 8px;
+    border: 1px solid rgb(246, 246, 246);
 
   }
 
   #elenco {
-    left: 9%;
-    right: 8%;
-    top:172px;
-    width: 70%;
-    padding: 20px;
-    font-size: 11px;
-    border:1px solid rgb(246, 246, 246);
-  }
+       margin: 0 auto;
+       top: 109px;
+       width: 70%;
+       padding: 20px;
+       font-size: 11px;
+       border: 1px solid rgb(246, 246, 246);
+   }
+
   #titoli{
       font-size: 28px;
   }
+
 #iconamenu{
   scale: 0.8;
   top: -21px;
@@ -81,39 +82,39 @@ body {
 
                                                 /*SCHEDE*/
 
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 89px;
+    margin: 25px;
+    scale: 0.9;
+}
+.container .icona1 {
+  width: 40%;
+  height: 40%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin: 40px;
+}
 
  #titoloalbum {
-position: absolute;
-color: white;
-left:11px;
-top: 380px;
-font-size: 12px;
-text-align: left;
- }
- #album {
-position: absolute;
-top: 240px;
-left: 11px;
-max-width: 20%;
-max-height: 20%;
-border: solid 2px;
-border-color: white;
-margin-top: 30px; /* Aggiunto il margine superiore di 30px */
-margin-left: 3% auto;
-margin-right: 3% auto;
-}
-                                                
-#descrizionetesto{  
-  top:400px;
-  max-width:95%;
-  left:3%;
-  font-size:12px;
-}
-
-
-#autore{
   position: absolute;
-  top: 1243px;
+  color: white;
+  left: 11px;
+  top: 951px;
+  font-size: 12px;
+  text-align: left;
+}
+#section2 {
+  position: relative;
+  top: 431px;
+}
+
+#album {
+  position: absolute;
+  top: 824px;
   left: 11px;
   max-width: 20%;
   max-height: 20%;
@@ -123,30 +124,54 @@ margin-right: 3% auto;
   margin-left: 3% auto;
   margin-right: 3% auto;
 }
-#nomeautore{
-  position: absolute;
-  color: white;
-  left:11px;
-  top: 1375px;
+                                                
+#descrizionetesto {
+  top: 980px;
+  max-width: 95%;
+  left: 3%;
   font-size: 12px;
-  text-align: left;
-   }
-
-#descrizioneautore{
-text-align: left;
-font-size:12px;
-top:1400px;
-left:3%;
-max-width:80%;
-margin-right:2%;
 }
 
 
-#ascoltaora{
+#autore {
+  position: absolute;
+  top: 1667px;
+  left: 11px;
+  max-width: 20%;
+  max-height: 20%;
+  border: solid 2px;
+  border-color: white;
+  margin-top: 30px;
+  margin-left: 3% auto;
+  margin-right: 3% auto;
+}
+#nomeautore {
+  position: absolute;
+  color: white;
+  left: 11px;
+  top: 1763px;
+  font-size: 12px;
+  text-align: left;
+}
+
+#descrizioneautore {
+  text-align: left;
+  font-size: 12px;
+  top: 1796px;
+  left: 3%;
+  max-width: 80%;
+  margin-right: 2%;
+}
+
+#section1 {
+  position: relative;
+  top: 1842px;
+}
+#ascoltaora {
   display: block;
-  position:absolute;
-  color:rgba(161,161,161);
-  top: 245px;
+  position: absolute;
+  color: rgba(161,161,161);
+  top: 828px;
   left: 11px;
   font-size: 8px;
 }
