@@ -21,9 +21,9 @@ body {
   }
   
   .popup {
-    position: fixed;
-    top: 30%;
-    left: 50%;
+    position: relative;
+    top: 40%;
+    margin: 0 auto;
     transform: translate(-50%, -50%);
     background-color: black;
     border: 1px solid white;

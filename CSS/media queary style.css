@@ -248,12 +248,12 @@ footer {
 } 
 
 
-  #nomeinstagram {
-    position: relative;
-    right: -80px;
-    top: -1184px;
-    color: #ffffff;
-    font-size: 18px;
+#nomeinstagram {
+  position: relative;
+  right: -20%;
+  top: -1184px;
+  color: #ffffff;
+  font-size: 18px;
 }
 
 #logotw {
@@ -265,7 +265,7 @@ footer {
 
 #nometwitter {
   position: relative;
-  right: 68px;
+  right: 12.5%;
   top: -1101px;
   color: #ffffff;
   font-size: 18px;
