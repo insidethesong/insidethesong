@@ -179,7 +179,24 @@
   font-size: 18px;
 }
   
-  
+#fra {
+  position: relative;
+  top: -1031px;
+  left: -367px;
+  scale: 0.1;
+} 
+
+#gia {
+  position: relative;
+  top: -258px;
+  left: -368px;
+  scale: 0.1;
+}
+
+
+
+
+
 #contattaci {
   position: absolute;
   left: 3%;
